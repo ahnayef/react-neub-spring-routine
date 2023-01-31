@@ -9,7 +9,7 @@ export default function Routinebox(props) {
             <h4>{props.teacher}</h4>
             <h3>{props.startTime} - {props.endTime}</h3>
             <h3>{props.roomNo}</h3>
-            {props.section && <h3>{props.section}</h3>}
+            {props.section && <h3>{props.section} only</h3>}
         </div>
     )
 }
