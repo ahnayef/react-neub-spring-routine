@@ -2,5 +2,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-direction: column;
+    height: 100vh;
+}
+.homeSelectArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px dashed var(--primary);
+    padding: 1em;
+    margin: 1em;
+}
+.homeSelectArea h3{
+    padding: 0.5em;
 }
