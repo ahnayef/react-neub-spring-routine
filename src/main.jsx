@@ -4,8 +4,11 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Dashboard from './Components/Dashboard/Dashboard';
 import Error404 from './Components/Error404';
 import Home from './Components/Home';
+import SectionA from './Components/SectionA/SectionA';
+import SectionB from './Components/SectionB/SectionB';
 import './index.css';
 
 const router = createBrowserRouter([
@@ -16,9 +19,15 @@ const router = createBrowserRouter([
   },
   {
     path:"sectionA",
+    element: <SectionA/>
   },
   {
     path:"sectionB",
+    element: <SectionB/>
+  },
+  {
+    path:"dashboard",
+    element: <Dashboard/>
   }
 ]);
 
