@@ -1,16 +1,19 @@
 @import url("./utility/colors.css");
 @import url("./utility/fonts.css");
-*{
+
+* {
     margin: 0;
     padding: 0;
     -webkit-tap-highlight-color: transparent;
 }
-body{
+
+body {
     background-color: var(--background);
     color: var(--text);
     font-family: 'Noto Sans', sans-serif;
 }
-.btn{
+
+.btn {
     padding: 0.5em;
     margin: 0.5em;
     background-color: transparent;
@@ -20,7 +23,15 @@ body{
     cursor: pointer;
     font-family: 'Noto Sans', sans-serif;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: var(--primary);
     color: var(--background);
+}
+
+.gre-text {
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

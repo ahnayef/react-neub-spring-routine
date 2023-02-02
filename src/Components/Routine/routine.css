@@ -12,49 +12,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-}
-
-.routineList .routineBox {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    border: 1px solid var(--primary);
-    padding: 0.7em;
-    transition: 0.5s;
-}
-
-.routineList .routineBox:hover {
-    box-shadow: 0 0 0.3em var(--primary);
-}
-
-.routineList .routineBox h2,
-h3,
-h4 {
-    padding: 0.2em;
-}
-
-.routineList .routineBox .lab {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    width: 1em;
-    height: 1em;
-    padding: 1em;
-    border-radius: 50%;
-    background-color: var(--primary);
-    top: -1em;
-    right: -1em;
-    color: var(--background);
-    font-size: small;
-    font-weight: bold;
-    transition: 0.5s;
-}
-.routineList .routineBox:hover .lab {
-    transform: rotate(360deg);
-    box-shadow: 0 0 0.7em var(--primary);
+    padding: 0.5em;
 }
