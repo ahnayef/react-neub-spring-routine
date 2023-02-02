@@ -9,7 +9,7 @@ export default function Home() {
 
 const handleShare = ()=>{
   navigator.share({
-    title: 'Spring 23 Routine',
+    title: 'NEUB Spring 23 Routine | CSC',
     url: window.location.href
   })
 }
@@ -17,7 +17,7 @@ const handleShare = ()=>{
   return (
     <div className="homeMain">
       <h2>North East University Bangladesh</h2>
-      <h3>Spring 23 Routine</h3>
+      <h3>Spring 23 Routine | CSE</h3>
       <div className="homeSelectArea">
       <Link to="/routine"><button className='btn'><TbClipboardText/> View Routine</button></Link>
       <a className='downloadPDF' href={pdfLink} download><FaFilePdf/> Download PDF</a>
