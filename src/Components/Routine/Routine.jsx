@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from 'react';
 import { useState } from 'react';
 import "./routine.css";
 import routineData from './routine.json'
@@ -10,11 +11,23 @@ export default function Routine() {
   //   var date = new Date();
   //   date.toLocaleDateString("en-US", { weekday: 'long' });
   // }
-  const [routine,setRoutine] = useState(routineData.sunday);
+
+useEffect(()=>{
+
+  let date = new Date();
+
+  const day = date.toLocaleDateString("en-US",{weekday:'long'})
+
+  console.log(day);
+
+},[]);
+
+  const [routine,setRoutine] = useState(routineData.wednesday);
   
   return (
     <div className="routineMain">
       <div className="routineList">
+        <h1>Tuesday</h1>
         {routine.map((item)=>{return(<Routinebox lab={item.lab} name={item.name} teacher={item.teacher} startTime={item.startTime} endTime={item.endTime} roomNo={item.roomNo} section={item.section} key={item.name} />)})}
       </div>
     </div>
