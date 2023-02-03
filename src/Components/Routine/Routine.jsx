@@ -29,7 +29,7 @@ useEffect(()=>{
   let myDay = date.toLocaleDateString("en-US",{weekday:'long'})
 
   if(myDay === "Friday" || myDay === "Saturday"){
-    alert("No class today.Enjoy your day!");
+    alert("No class today :: Enjoy your day!");
     window.location.replace("https://youtube.com");
   }else{
     setCheke(true)
@@ -41,7 +41,7 @@ useEffect(()=>{
 
 const handleCopy = ()=>{
   navigator.clipboard.writeText(location.href);
-  navigator.vibrate(200);
+  navigator.vibrate(40);
   toast.success("Copied to clipboard")
 }
   
