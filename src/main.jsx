@@ -1,14 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client';
 import {
-  createHashRouter,
+  createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 import Error404 from './Components/Error404';
 import Routine from "./Components/Routine/Routine"
 import './index.css';
 
-const router =  createHashRouter([
+const router =  createBrowserRouter([
   {
     path: "/",
     element: <Routine/>,
