@@ -34,7 +34,7 @@ export default function Routine() {
   
     if(myDay === "Friday" || myDay === "Saturday"){
       alert("No class today :: Enjoy your day!");
-      window.location.replace("https://youtube.com");
+      window.location.replace("https://discord.gg/jCVgCr37nJ");
     }else{
       setCheke(true)
     }
