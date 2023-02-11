@@ -3,7 +3,7 @@ import './home.css';
 import { Link } from 'react-router-dom';
 import {FaFilePdf, FaShareAlt, FaTelegramPlane} from 'react-icons/fa'
 import {TbClipboardText} from 'react-icons/tb'
-import pdfLink from "../assets/pdf/Spring_23_11.pdf"
+import pdfLink from "../assets/pdf/routine.pdf"
 
 export default function Home() {
 

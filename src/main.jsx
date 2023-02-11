@@ -5,20 +5,15 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Error404 from './Components/Error404';
-import Home from './Components/Home';
 import Routine from "./Components/Routine/Routine"
 import './index.css';
 
 const router =  createHashRouter([
   {
     path: "/",
-    element: <Home/>,
+    element: <Routine/>,
     errorElement:<Error404/>
-  },
-  {
-    path: "/routine",
-    element:<Routine/>
-  },
+  }
   
 ]);
 
