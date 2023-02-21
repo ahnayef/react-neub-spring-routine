@@ -20,30 +20,43 @@ export default function Routine() {
   // }
 
   const [routine, setRoutine] = useState(routineData.monday);
-
-  const [today, setToday] = useState(" ");
+  
+  const [date, setDate] = useState(new Date());
+  
+  const [today, setToday] = useState(date.toLocaleDateString("en-US", { weekday: 'long' }));
 
   const [check, setCheke] = useState(false);
 
-  useEffect(() => {
-
-    let date = new Date();
-
-    let myDay = date.toLocaleDateString("en-US", { weekday: 'long' })
-
-  
-    if(myDay === "Friday" || myDay === "Saturday"){
+  useEffect(() => {  
+    if(today === "Friday" || today === "Saturday"){
       alert("No class today :: Enjoy your day!");
       window.location.replace("https://discord.gg/jCVgCr37nJ");
     }else{
       setCheke(true)
     }
+    setRoutine(routineData[today.toLowerCase()])
+    // console.log(today)
   
-    setToday(myDay);
-    setRoutine(routineData[myDay.toLowerCase()])
+  }, [today,routine,date]);
+
+
+  const handlePrev = () => {
+    date.setDate(date.getDate() - 1);
+    //set new day
+    setToday(date.toLocaleDateString("en-US", { weekday: 'long' }));
+    //set new routine
+    setRoutine(routineData[today.toLowerCase()])
+  }
   
+  const handleNext = () => {
+    date.setDate(date.getDate() + 1);
+    //set new day
+    setToday(date.toLocaleDateString("en-US", { weekday: 'long' }));
+    //set new routine
+    setRoutine(routineData[today.toLowerCase()])
+  }
   
-  }, []);
+
 
   const handleCopy = () => {
     navigator.clipboard.writeText(location.href);
@@ -84,7 +97,11 @@ export default function Routine() {
 
       <div className="routineMain">
         <div className="routineList">
+          <div className="dayArea">
+          {today != "Sunday" ? <button onClick={handlePrev}>&lt;</button> : " " }
           <h1>{today}</h1>
+           {today !="Thursday" ? <button onClick={handleNext}>&gt;</button> : " "}
+          </div>
           {
             check == true && routine.map((item) => { return (<Routinebox lab={item.lab} name={item.name} teacher={item.teacher} startTime={item.startTime} endTime={item.endTime} roomNo={item.roomNo} section={item.section} key={item.name} />) })
           }

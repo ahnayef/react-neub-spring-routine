@@ -12,9 +12,30 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
     padding: 0.5em;
 }
 
+
+.routineList .dayArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0.5em;
+}
+
+.routineList .dayArea h1 {
+    margin: 0 0.5em;
+}
+.routineList .dayArea button{
+    /* outline: 1px solid var(--primary); */
+    border: none;
+    padding: 0.5em;
+    background-color: transparent;
+    color: var(--primary);
+    font-size: 1.4em;
+}
 /* .sBtn{
     padding: 0.5em;
     border: 1px solid var(--primary);
@@ -90,7 +111,7 @@
     transition: 0.5s ease-in-out;
 }
 
-.settinfIcon label:hover{
+.settinfIcon label:hover {
     color: var(--primary);
     transform: rotate(90deg);
 }
@@ -104,7 +125,7 @@
     text-align: center;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     /* background-color: var(--background-light); */
     background-color: rgba(0, 0, 0, 0.85);
     box-shadow: 0 0 0.7em var(--background-light);
@@ -114,7 +135,8 @@
     animation: fadeOut;
     animation-duration: 1s;
 }
-#settingTr:checked ~ .settingBox{
+
+#settingTr:checked~.settingBox {
     animation: fadeIn;
     animation-duration: 1s;
     display: flex;
@@ -135,7 +157,11 @@
 }
 
 @media screen and (max-width:720px) {
-    .settingBox{
+    .settingBox {
         width: 70%;
+    }
+    .routineList .dayArea h1 {
+        margin: 0 0.2em;
+        font-size: 1.3em;
     }
 }

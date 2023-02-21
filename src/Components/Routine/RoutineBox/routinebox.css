@@ -10,6 +10,8 @@
       margin: 1em;
       width: 80%;
       box-sizing: border-box;
+      animation: zoomIn;
+      animation-duration: 0.5s;
   }
 
   .routineBox:hover {
