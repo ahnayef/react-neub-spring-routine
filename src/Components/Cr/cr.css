@@ -12,6 +12,7 @@
     align-items: center;
     justify-content: center;
     padding: 1em;
+    margin: 0.5em;
     border: 1px solid var(--primary);
     border-radius: 0.5em;
     animation: bounceIn 1s;
@@ -71,4 +72,11 @@
 
 .crBox .socialArea a {
     border-radius: 0.5em;
+}
+
+.crMain .btn{
+    border-radius: 0.5em;
+    animation: bounceIn 1s;
+    margin-top: 1.5em;
+
 }

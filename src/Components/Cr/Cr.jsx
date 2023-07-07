@@ -6,6 +6,7 @@ import { IoCallSharp } from 'react-icons/io5';
 import { useRef } from 'react';
 import VanillaTilt from 'vanilla-tilt';
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Cr() {
 
@@ -45,7 +46,7 @@ export default function Cr() {
           <a href="tel:+8801729393099" target='_' className='btn' > <i><IoCallSharp/></i> Call</a>
         </div>
       </div>
-
+      <Link to="/" className='btn'> ⬅️ Back</Link>
     </div>
   )
 }
