@@ -63,12 +63,12 @@
 }
 
 .settingBox .btnDis {
-    border: 1px solid var(--purpul);
-    color: var(--purpul);
+    border: 1px solid var(--purple);
+    color: var(--purple);
 }
 
 .settingBox .btnDis:hover {
-    background-color: var(--purpul);
+    background-color: var(--purple);
 }
 
 

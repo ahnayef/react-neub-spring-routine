@@ -10,7 +10,7 @@ import { AiFillSetting } from "react-icons/ai";
 import { FaDiscord, FaFacebookMessenger, FaFilePdf, FaLink, FaShareAlt ,FaTelegramPlane,FaTimes } from "react-icons/fa"
 import pdfLink from "../../assets/pdf/routine.pdf";
 import "animate.css"
-
+import Weekend from '../Weekend/Weekend'
 
 export default function Routine() {
 
@@ -29,8 +29,10 @@ export default function Routine() {
 
   useEffect(() => {  
     if(today === "Friday" || today === "Saturday"){
-      alert("No class today :: Enjoy your day!");
-      window.location.replace("https://discord.gg/jCVgCr37nJ");
+      // alert("No class today :: Enjoy your day!");
+      // window.location.replace("https://discord.gg/jCVgCr37nJ");
+      setCheke(false);
+      console.log("No class today :: Enjoy your day!")
     }else{
       setCheke(true)
     }
@@ -103,7 +105,7 @@ export default function Routine() {
            {today !="Thursday" ? <button onClick={handleNext}>&gt;</button> : " "}
           </div>
           {
-            check == true && routine.map((item) => { return (<Routinebox lab={item.lab} name={item.name} teacher={item.teacher} startTime={item.startTime} endTime={item.endTime} roomNo={item.roomNo} section={item.section} key={item.name} />) })
+            check ? routine.map((item) => { return (<Routinebox lab={item.lab} name={item.name} teacher={item.teacher} startTime={item.startTime} endTime={item.endTime} roomNo={item.roomNo} section={item.section} key={item.name} />) }) : <Weekend/>
           }
         </div>
         {/* <div className="copyPageUrl" onClick={handleCopy}><FaLink/> Copy Page Url</div> */}

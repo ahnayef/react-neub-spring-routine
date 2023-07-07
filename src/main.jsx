@@ -6,12 +6,17 @@ import {
 } from "react-router-dom";
 import Error404 from './Components/Error404';
 import Routine from "./Components/Routine/Routine"
+import Cr from "./Components/Cr/Cr"
 import './index.css';
 
 const router =  createBrowserRouter([
   {
     path: "/",
     element: <Routine/>,
+    errorElement:<Error404/>
+  },{
+    path: "/cr",
+    element: <Cr/>,
     errorElement:<Error404/>
   }
   
