@@ -38,6 +38,7 @@
 .crBox h5 {
     opacity: 0.5;
     /* transform: translateZ(5px); */
+    font-family: "LiAdorNoirrit";
 }
 
 .crBox .circle {
@@ -78,5 +79,19 @@
     border-radius: 0.5em;
     animation: bounceIn 1s;
     margin-top: 1.5em;
+    color: var(--text);
+    /* text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0.3em; */
+}
 
+.crMain .btn:hover{
+   animation: fadeIn 0.5s;
+}
+
+.crMain .btn b{ 
+    margin-right: 0.5em;
 }

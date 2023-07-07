@@ -1,6 +1,6 @@
 import React from 'react';
 import './cr.css';
-import { FaFacebook } from 'react-icons/fa';
+import {  FaChevronCircleLeft, FaFacebook } from 'react-icons/fa';
 import { RiMessengerFill, RiWhatsappFill } from 'react-icons/ri';
 import { IoCallSharp } from 'react-icons/io5';
 import { useRef } from 'react';
@@ -46,7 +46,7 @@ export default function Cr() {
           <a href="tel:+8801729393099" target='_' className='btn' > <i><IoCallSharp/></i> Call</a>
         </div>
       </div>
-      <Link to="/" className='btn'> ⬅️ Back</Link>
+      <Link to="/" className='btn'><b><FaChevronCircleLeft/></b>Back</Link>
     </div>
   )
 }

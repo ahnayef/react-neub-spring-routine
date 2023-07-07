@@ -32,7 +32,7 @@ export default function Weekend() {
       <Link to="/cr" className='btn'>Contact CR</Link>
       <div className="socialIcons">
         <ul>
-          <li><a href="https://www.whatsapp.com/" target='_'><IoLogoWhatsapp/></a></li>
+          <li><a href="https://chat.whatsapp.com/BS21WmPyPat8GkyFgiRw0V" target='_'><IoLogoWhatsapp/></a></li>
           <li><a href="https://www.messegner.com/" target='_'><FaFacebookMessenger/></a></li>
           <li><a href="https://discord.com/invite/jCVgCr37nJ" target='_'><FaDiscord/></a></li>
         </ul>
