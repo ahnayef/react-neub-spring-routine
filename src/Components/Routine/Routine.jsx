@@ -11,6 +11,8 @@ import { FaDiscord, FaFacebookMessenger, FaFilePdf, FaLink, FaShareAlt ,FaTelegr
 import pdfLink from "../../assets/pdf/routine.pdf";
 import "animate.css"
 import Weekend from '../Weekend/Weekend'
+import { Link } from 'react-router-dom';
+import {BiMessageRounded} from 'react-icons/bi'
 
 export default function Routine() {
 
@@ -40,6 +42,7 @@ export default function Routine() {
     // console.log(today)
   
   }, [today,routine,date]);
+
 
 
   const handlePrev = () => {
@@ -83,8 +86,10 @@ export default function Routine() {
         <div className="settingBox">
         <label htmlFor="settingTr" id='settingBoxClose'><FaTimes/></label>
         <h2>MENU</h2>
-        <a href={pdfLink} download className='btn dPdf'><FaFilePdf/> Download PDF</a>
-        <a href="https://discord.gg/jCVgCr37nJ" target="_blank" className='btn btnDis'><FaDiscord/> Join Our Server</a>
+
+        {/* <a href={pdfLink} download className='btn dPdf'><FaFilePdf/> Download PDF</a> */}
+        {/* <a href="https://discord.gg/jCVgCr37nJ" target="_blank" className='btn btnDis'><FaDiscord/> Join Our Server</a> */}
+        <Link to="/cr" className='btn'><BiMessageRounded/> Contact CR</Link>
         <div className="btn" onClick={handleCopy}><FaLink /> Copy Page Url</div>
         <i className='btn' onClick={handleShare}><FaShareAlt /> Share</i>
 

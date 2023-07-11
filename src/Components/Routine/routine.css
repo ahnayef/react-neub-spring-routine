@@ -52,6 +52,14 @@
     color: var(--primary);
 }
 
+
+.settingBox .btn svg path{
+    stroke: var(--primary);
+}
+.settingBox .btn:hover svg path{
+    stroke: var(--background);
+}
+
 .settingBox .dPdf {
     text-decoration: none;
     border: 1px solid var(--red);
