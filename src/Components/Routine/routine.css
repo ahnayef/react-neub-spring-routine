@@ -23,6 +23,7 @@
     justify-content: center;
     flex-direction: row;
     padding: 0.5em;
+    user-select: none;
 }
 
 .routineList .dayArea h1 {
@@ -31,10 +32,13 @@
 .routineList .dayArea button{
     /* outline: 1px solid var(--primary); */
     border: none;
-    padding: 0.5em;
-    background-color: transparent;
-    color: var(--primary);
+    padding: 0.2em 0.5em;
+    background-color: var(--primary);
+    color: var(--background);
     font-size: 1.4em;
+    border-radius: 0.1em;
+    font-weight: 550;
+    user-select: none;
 }
 /* .sBtn{
     padding: 0.5em;
