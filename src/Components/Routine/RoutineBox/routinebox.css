@@ -10,6 +10,7 @@
       margin: 1em;
       width: 80%;
       box-sizing: border-box;
+      border-radius: 0.4em;
       animation: zoomIn;
       animation-duration: 0.5s;
       animation-timing-function: cubic-bezier(0.375, 0.885, 0.32, 1.275);
