@@ -9,6 +9,7 @@ export default function Routinebox(routine) {
 
     return (
         <div className="routineBox">
+            <p className="courseCode">{routine.courseCode}</p>
             {routine.lab ? <div className="lab">LAB</div> : " "}
             <h2 className='gre-text'>{routine.name}</h2>
             <h4>{routine.teacher}</h4>

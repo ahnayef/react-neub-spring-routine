@@ -36,6 +36,14 @@
       opacity: 0.68;
   }
 
+  .routineBox .courseCode{
+        position: absolute;
+        left: -2.4em;
+        transform: rotate(90deg);
+        font-size: 0.8em;
+        opacity: 0.3;
+  }
+
   .routineBox .lab {
       position: absolute;
       display: flex;
