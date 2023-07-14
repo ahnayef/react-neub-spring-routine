@@ -2,7 +2,7 @@
     "sunday": [
         {
             "name": "Fundamentals of Physics",
-            "teacher": "Unknown",
+            "teacher": "Shahadat Hossain",
             "time": ["8:30 - 9:55"],
             "roomNo": "R-412",
             "courseCode":"PHY-05331201"
@@ -72,7 +72,7 @@
     "tuesday": [
         {
             "name": "Fundamentals of Physics",
-            "teacher": "Unknown",
+            "teacher": "Shahadat Hossain",
             "time": ["8:30 - 9:55"  ],
             "roomNo": "R-412",
             "courseCode":"PHY-05331201"
