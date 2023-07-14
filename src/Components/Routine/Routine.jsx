@@ -110,7 +110,7 @@ export default function Routine() {
            {today !="Thursday" ? <button onClick={handleNext}>&gt;</button> : " "}
           </div>
           {
-            check ? routine.map((item) => { return (<Routinebox lab={item.lab} name={item.name} teacher={item.teacher} startTime={item.startTime} endTime={item.endTime} roomNo={item.roomNo} section={item.section} key={item.name} />) }) : <Weekend/>
+            check ? routine.map((item) => { return (<Routinebox lab={item.lab} name={item.name} teacher={item.teacher} time={item.time} roomNo={item.roomNo} section={item.section} key={item.name} />) }) : <Weekend/>
           }
         </div>
         {/* <div className="copyPageUrl" onClick={handleCopy}><FaLink/> Copy Page Url</div> */}
