@@ -1,109 +1,124 @@
 {
     "sunday": [
         {
-            "name": "Basic Electric Engineering",
+            "name": "Fundamentals of Physics",
+            "teacher": "Unknown",
+            "time": ["8:30 - 9:55"],
+            "roomNo": "R-412"
+        },
+        {
+            "name": "Electronics devices & circuit",
             "teacher": "Mr. Shahadat Hussain Parvez",
-            "startTime": "10:00",
-            "endTime": "11:25",
-            "roomNo": "R-412"
+            "time": ["10:00 - 11:25"],
+            "roomNo": "R-312"
         },
         {
-            "name": "Structured Programming Language",
-            "teacher": "Mr. Ayon Dey",
-            "startTime": "11:30",
-            "endTime": "12:55",
-            "roomNo": "R-412"
-        },
-        {
-            "name": "Discrete Math",
+            "name": "DSA Lab",
             "teacher": "Ms. Tasnim Zahan",
-            "startTime": "1:00",
-            "endTime": "2:55",
-            "roomNo": "R-412"
+            "time": ["11:30 - 2:25"],
+            "roomNo": "R-301",
+            "lab":true,
+            "section":"Section A"
+        },
+        {
+            "name": "EDC Lab",
+            "teacher": "Mr. Shahadat Hussain Parvez",
+            "time": ["11:30 - 2:25"],
+            "roomNo": "R-310",
+            "lab":true,
+            "section":"Section B"
         }
+      
         
     ],
     "monday": [
         {
-            "name": "Basic Electric Engineering",
-            "teacher": "Mr. Shahadat Hussain Parvez",
-            "startTime": "08:30",
-            "endTime": "09:55",
-            "roomNo": "R-501"
-        },
-        {
-            "name": "Calculus",
+            "name": "Linear Algebra",
             "teacher": "Mr. Rathindra Chandra Gope",
-            "startTime": "10:00",
-            "endTime": "11:25",
-            "roomNo": "R-214"
+            "time": ["10:00 - 11:25"],
+            "roomNo": "R-312"
         },
         {
-            "name": "Hist. of the Emerg. of Ind. Bangladesh",
-            "teacher": "Ms Most. Sweety Khatun",
-            "startTime": "1:00",
-            "endTime": "2:55",
-            "roomNo": "R-412"
-        }
-    ],
-    "tuesday": [
-        {
-            "name": "Structured Programming Language",
-            "teacher": "Mr. Ayon Dey",
-            "startTime": "08:30",
-            "endTime": "09:55",
-            "roomNo": "R-214"
-        },
-        {
-            "name": "Basic Electric Engineering Lab",
+            "name": "EDC Lab",
             "teacher": "Mr. Shahadat Hussain Parvez",
-            "startTime": "10:00",
-            "endTime": "12:55",
+            "time": ["11:30 - 2:25"],
             "roomNo": "R-310",
-            "lab":true
-        },
-        {
-            "name": "Discrete Math",
-            "teacher": "Ms. Tasnim Zahan",
-            "startTime": "1:00",
-            "endTime": "2:55",
-            "roomNo": "R-412"
-        }
-    ],
-    "wednesday": [
-        {
-            "name": "Calculus",
-            "teacher": "Mr. Rathindra Chandra Gope",
-            "startTime": "10:00",
-            "endTime": "11:25",
-            "roomNo": "R-412"
-        },
-        {
-            "name": "Structured Programming Language Lab",
-            "teacher": "Mr. Ayon Dey",
-            "startTime": "11:30",
-            "endTime": "2:55",
-            "roomNo": "R-301",
             "lab":true,
             "section":"Section A"
-        }
-    ],
-    "thursday": [
+        },
         {
-            "name": "Structured Programming Language Lab",
-            "teacher": "Mr. Ayon Dey",
-            "startTime": "10:00",
-            "endTime": "12:55",
+            "name": "DSA Lab",
+            "teacher": "Ms. Tasnim Zahan",
+            "time": ["11:30 - 2:25"],
             "roomNo": "R-309",
             "lab":true,
             "section":"Section B"
         },
         {
-            "name": "Hist. of the Emerg. of Ind. Bangladesh",
-            "teacher": "Ms Most. Sweety Khatun",
-            "startTime": "1:00",
-            "endTime": "2:55",
+            "name": "Bangladesh Studies",
+            "teacher": "Unknown",
+            "time": ["2:30 - 3:55"],
             "roomNo": "R-412"
+        }
+    ],
+    "tuesday": [
+        {
+            "name": "Fundamentals of Physics",
+            "teacher": "Unknown",
+            "time": ["8:30 - 9:55"  ],
+            "roomNo": "R-412"
+        },
+        {
+            "name": "Electronics devices & circuit",
+            "teacher": "Mr. Shahadat Hussain Parvez",
+            "time": ["10:00 - 11:25"],
+            "roomNo": "R-312"
+        },
+        {
+            "name": "Data Structure & Algorithm ",
+            "teacher": "Ms. Tasnim Zahan",
+            "time": ["Section A: 11:30 - 12:55","Sention B: 1:00 - 2:25"],
+            "roomNo": "R-412"
+        }
+    ],
+    "wednesday": [
+        {
+            "name": "Advanced Functional English",
+            "teacher": "Unknown",
+            "time": ["8:30 - 9:55"],
+            "roomNo": "R-402"
+        },
+        {
+            "name": "Linear Algebra",
+            "teacher": "Mr. Rathindra Chandra Gope",
+            "time": ["10:00 - 11:25"],
+            "roomNo": "R-412"
+        },
+        {
+            "name": "Data Structure & Algorithm ",
+            "teacher": "Ms. Tasnim Zahan",
+            "time": ["Section B: 11:30 - 12:55","Sention A: 1:00 - 2:25"],
+            "roomNo": "R-412"
+        }
+    ],
+    "thursday": [
+        {
+            "name": "Advanced Functional English",
+            "teacher": "Unknown",
+            "time": ["8:30 - 9:55"],
+            "roomNo": "R-402"
+        },
+        {
+            "name": "Bangladesh Studies",
+            "teacher": "Unknown",
+            "time": ["11:30 - 12:55"],
+            "roomNo": "R-312"
+        },
+        {
+            "name": "ACM",
+            "teacher": "Mr. Ayon Dey",
+            "time": ["1:00 - 3:55"],
+            "roomNo": "R-301"
         }
     ]
 }
