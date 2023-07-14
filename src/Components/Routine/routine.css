@@ -29,7 +29,8 @@
 .routineList .dayArea h1 {
     margin: 0 0.5em;
 }
-.routineList .dayArea button{
+
+.routineList .dayArea button {
     /* outline: 1px solid var(--primary); */
     border: none;
     padding: 0.2em 0.5em;
@@ -41,7 +42,8 @@
     user-select: none;
     cursor: pointer;
 }
-.routineList .dayArea button:active{
+
+.routineList .dayArea button:active {
     scale: 0.95;
 }
 
@@ -63,10 +65,11 @@
 }
 
 
-.settingBox .btn svg path{
+.settingBox .btn svg path {
     stroke: var(--primary);
 }
-.settingBox .btn:hover svg path{
+
+.settingBox .btn:hover svg path {
     stroke: var(--background);
 }
 
@@ -136,30 +139,31 @@
 
 .settingBox {
     position: fixed;
-    display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* background-color: var(--background-light); */
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
     background-color: rgba(0, 0, 0, 0.85);
     box-shadow: 0 0 0.7em var(--background-light);
-    border: 1px dashed var(--primary);
+    border: 1px solid var(--primary);
     border-radius: 0.3em;
     padding: 1em;
     z-index: 2;
-    animation: fadeOut;
-    animation-duration: 1s;
+    animation: zoomOut   0.5s;
+    animation-fill-mode: forwards;
+    display: none;
 }
 
 #settingTr:checked~.settingBox {
-    animation: fadeIn;
-    animation-duration: 1s;
-    display: flex;
-    /* visibility: visible; */
+    animation: bounceIn 0.5s;
+    display: flex;  
 }
 
 .settingBox #settingBoxClose {
@@ -179,6 +183,7 @@
     .settingBox {
         width: 70%;
     }
+
     .routineList .dayArea h1 {
         margin: 0 0.2em;
         font-size: 1.3em;
