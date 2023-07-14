@@ -7,7 +7,7 @@ import Routinebox from './RoutineBox/Routinebox';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { AiFillSetting } from "react-icons/ai";
-import { FaDiscord, FaFacebookMessenger, FaFilePdf, FaLink, FaShareAlt ,FaTelegramPlane,FaTimes } from "react-icons/fa"
+import { FaDiscord, FaFacebookMessenger, FaFilePdf, FaGithub, FaLink, FaShareAlt ,FaTelegramPlane,FaTimes } from "react-icons/fa"
 import pdfLink from "../../assets/pdf/routine.pdf";
 import "animate.css"
 import Weekend from '../Weekend/Weekend'
@@ -92,6 +92,7 @@ export default function Routine() {
         <Link to="/cr" className='btn'><BiMessageRounded/> Contact CR</Link>
         <div className="btn" onClick={handleCopy}><FaLink /> Copy Page Url</div>
         <i className='btn' onClick={handleShare}><FaShareAlt /> Share</i>
+        <a href="https://github.com/ahnayef/react-neub-spring-routine/" target='_' className='btn'><FaGithub/> Source Code</a>
 
         <div className="socialLinks">
         <a href='https://ahnayef.t.me' className='socialIcon' target="_blank"><FaTelegramPlane/></a>

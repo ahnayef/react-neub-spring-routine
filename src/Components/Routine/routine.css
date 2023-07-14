@@ -142,6 +142,7 @@
     background-color: rgba(0, 0, 0, 0.85);
     box-shadow: 0 0 0.7em var(--background-light);
     border: 1px dashed var(--primary);
+    border-radius: 0.3em;
     padding: 1em;
     z-index: 2;
     animation: fadeOut;
