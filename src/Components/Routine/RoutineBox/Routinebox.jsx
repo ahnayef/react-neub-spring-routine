@@ -2,6 +2,7 @@ import React from 'react';
 import "./routinebox.css";
 import {FaClock} from 'react-icons/fa';
 import {MdLocationOn} from 'react-icons/md';
+import {AiOutlineAlert} from 'react-icons/ai';
 
 export default function Routinebox(routine) {
 
@@ -19,7 +20,7 @@ export default function Routinebox(routine) {
             )})}
             </div>
             <h3><i><MdLocationOn/></i> {routine.roomNo}</h3>
-            {routine.section && <h3>{routine.section} only</h3>}
+            {routine.section && <h3><i className='alertSec'><AiOutlineAlert/></i> {routine.section} <b>only</b></h3>}
         </div>
     )
 }

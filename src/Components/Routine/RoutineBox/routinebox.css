@@ -36,6 +36,12 @@
       font-size: 0.8em;
       opacity: 0.68;
   }
+  .routineBox h3 b {
+      opacity: 0.8;
+  }
+  .routineBox h3 .alertSec {
+      color: var(--yellow);
+  }
 
   .routineBox .courseCode{
         position: absolute;
