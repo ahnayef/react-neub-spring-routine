@@ -1,14 +1,24 @@
 {
-  "homepage": "/",
+  "homepage": "https://spring23.netlify.app/",
   "name": "neub-spring-routine",
+  "description": "Visualize The routine of NEUB CSE Spring-23 Batch",
   "private": false,
-  "version": "0.0.0",
+  "version": "2.1",
   "type": "module",
+  "author": "@AHNayef",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
+  "repository":[
+    "type": "git",
+    "url": "https://github.com/ahnayef/react-neub-spring-routine.git"
+  ],
+  "keywords":["NEUB","routine","website","spring23","react"],
+ "bugs":[
+   "url":"https://github.com/ahnayef/react-neub-spring-routine/issues"
+ ],
   "dependencies": {
     "animate.css": "^4.1.1",
     "party-js": "^2.2.0",
