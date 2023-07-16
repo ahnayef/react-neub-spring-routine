@@ -19,7 +19,6 @@ export default function Routine() {
 
 
 
-
   useState(() => {
     ReactGA.initialize(import.meta.env.VITE_GA_MID);
     ReactGA.send({ hitType: "pageview", page: "/" });
