@@ -19,10 +19,9 @@ export default function Routine() {
 
 
 
-  useState(() => {
-    ReactGA.initialize(import.meta.env.VITE_GA_MID);
-    ReactGA.send("pageview");
-  }, [])
+  ReactGA.initialize(import.meta.env.VITE_GA_MID);
+  ReactGA.send("pageview");
+
 
 
   const [routine, setRoutine] = useState(routineData.monday);
