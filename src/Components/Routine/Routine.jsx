@@ -51,8 +51,8 @@ export default function Routine() {
   const handlePrev = () => {
 
     ReactGA.event({
-      category: 'Button',
-      action: 'Click',
+      category: 'Change Day',
+      action: 'Prev Click',
       label: 'Prev Button Clicked'
 
     });
@@ -67,8 +67,8 @@ export default function Routine() {
   const handleNext = () => {
 
     ReactGA.event({
-      category: 'Button',
-      action: 'Click',
+      category: 'Change Day',
+      action: 'Next Click',
       label: 'Next Button Clicked'
     });
 
@@ -89,13 +89,44 @@ export default function Routine() {
     });
   };
 
+  const handleCloseIconClick = () => {
+    ReactGA.event({
+      category: 'Navigation',
+      action: 'Close Icon Click',
+      label: 'Close Icon Clicked',
+    });
+  };
+
+
+  const handleCrClick = () => {
+    ReactGA.event({
+      category: 'Navigation',
+      action: 'CR Click from Nav',
+      label: 'Contact CR Link Clicked',
+    });
+  };
 
   const handleCopy = () => {
+
+    ReactGA.event({
+      category: 'Navigation',
+      action: 'Copy Page Url',
+      label: 'Copy Page Url Clicked',
+    });
+
     navigator.clipboard.writeText(location.href);
     navigator.vibrate(40);
     toast.success("Copied to clipboard")
   }
   const handleShare = () => {
+
+    ReactGA.event({
+      category: 'Navigation',
+      action: 'Share Button Clicked',
+      label: 'Share Button Clicked',
+    });
+
+
     navigator.share({
       title: 'NEUB Spring 23 Routine | CSC',
       url: window.location.href
@@ -111,12 +142,12 @@ export default function Routine() {
         <input type="checkbox" name="settingTr" id="settingTr" hidden />
 
         <div className="settingBox">
-          <label htmlFor="settingTr" id='settingBoxClose'><FaTimes /></label>
+          <label htmlFor="settingTr" id='settingBoxClose' onClick={handleCloseIconClick}  ><FaTimes /></label>
           <h2>MENU</h2>
 
           {/* <a href={pdfLink} download className='btn dPdf'><FaFilePdf/> Download PDF</a> */}
           {/* <a href="https://discord.gg/jCVgCr37nJ" target="_blank" className='btn btnDis'><FaDiscord/> Join Our Server</a> */}
-          <Link to="/cr" className='btn'><BiMessageRounded /> Contact CR</Link>
+          <Link to="/cr" className='btn' onClick={handleCrClick}><BiMessageRounded /> Contact CR</Link>
           <div className="btn" onClick={handleCopy}><FaLink /> Copy Page Url</div>
           <i className='btn' onClick={handleShare}><FaShareAlt /> Share</i>
           <a href="https://github.com/ahnayef/react-neub-spring-routine/" target='_' className='btn'><FaGithub /> Source Code</a>

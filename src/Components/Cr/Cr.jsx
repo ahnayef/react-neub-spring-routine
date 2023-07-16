@@ -7,6 +7,7 @@ import { useRef } from 'react';
 import VanillaTilt from 'vanilla-tilt';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import ReactGA from 'react-ga4';
 
 export default function Cr() {
 
@@ -40,14 +41,28 @@ export default function Cr() {
 
   }, []);
 
+  const handleBackBtn = () => {
+    ReactGA.event({
+      category: 'CR Page',
+      action: 'Click',
+      label: 'Back Button Clicked'
+    });
+  }
 
+  const handleHover = () => {
+    ReactGA.event({
+      category: 'CR Page',
+      action: 'Hover',
+      label: 'CR Card Hovered'
+    });
+  }
 
 
   return (
     <>
       <div className="crMain">
         {
-          <div className="crBox" ref={tiltRef}>
+          <div className="crBox" ref={tiltRef} onMouseEnter={handleHover}>
             {/* <h1>Cr</h1> */}
             <div className="circle">
             </div>
@@ -61,7 +76,7 @@ export default function Cr() {
             </div>
           </div>
         }
-        <Link to="/" className='btn'><b><FaChevronCircleLeft /></b>Back</Link>
+        <Link to="/" className='btn' onClick={handleBackBtn} ><b><FaChevronCircleLeft /></b>Back</Link>
       </div>
     </>
   )
