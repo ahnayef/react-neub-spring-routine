@@ -13,11 +13,11 @@ const router = createHashRouter([
   {
     path: "/",
     element: <Routine />,
-    errorElement: <Error404 />
+    // errorElement: <Error404 />
   }, {
     path: "/cr",
     element: <Cr />,
-    errorElement: <Error404 />
+    // errorElement: <Error404 />
   }
 
 ]);
