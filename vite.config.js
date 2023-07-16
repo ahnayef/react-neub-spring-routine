@@ -9,7 +9,7 @@ export default defineConfig({
     registerType: 'autoUpdate', injectRegister: 'auto', workbox: {
       globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
       // includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.png'],
-      manifest: {
+      swDest: {
         name: 'Routine',
         short_name: 'Spring 23',
         description: 'Routine | Spring 23', 
