@@ -49,6 +49,14 @@ export default function Routine() {
 
 
   const handlePrev = () => {
+
+    ReactGA.event({
+      category: 'Button',
+      action: 'Click',
+      label: 'Prev Button Clicked'
+
+    });
+
     date.setDate(date.getDate() - 1);
     //set new day
     setToday(date.toLocaleDateString("en-US", { weekday: 'long' }));
@@ -57,6 +65,14 @@ export default function Routine() {
   }
 
   const handleNext = () => {
+
+    ReactGA.event({
+      category: 'Button',
+      action: 'Click',
+      label: 'Next Button Clicked'
+    });
+    
+
     date.setDate(date.getDate() + 1);
     //set new day
     setToday(date.toLocaleDateString("en-US", { weekday: 'long' }));
