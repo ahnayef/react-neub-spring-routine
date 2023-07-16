@@ -1,33 +1,48 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import { VitePWA } from 'vite-plugin-pwa'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import { VitePWA } from "vite-plugin-pwa";
 
+const manifestForPlugin= {
+	registerType: "prompt",
+	includeAssets: ["favicon.ico", "apple-touch-icon.png", "mask-icon.png"],
+	manifest: {
+		name: "Routine",
+		short_name: "Spring 23",
+		description: "Spring23 routine app",
+		icons: [
+			{
+				src: "src/assets/img/android-chrome-192x192.png",
+				sizes: "192x192",
+				type: "image/png",
+			},
+			{
+				src: "src/assets/img/android-chrome-512x512.png",
+				sizes: "512x512",
+				type: "image/png",
+			},
+			{
+				src: "src/assets/img/apple-touch-icon.png",
+				sizes: "180x180",
+				type: "image/png",
+				purpose: "apple touch icon",
+			},
+			{
+				src: "src/assets/img/mask-icon.png",
+				sizes: "225x225",
+				type: "image/png",
+				purpose: "any maskable",
+			},
+		],
+		theme_color: "#1e1e1e",
+		background_color: "#1e1e1e",
+		display: "standalone",
+		scope: "/",
+		start_url: "/",
+		orientation: "portrait",
+	},
+};
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(),
-  VitePWA({
-    registerType: 'autoUpdate', injectRegister: 'auto', workbox: {
-      globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
-      // includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.png'],
-      swDest: {
-        name: 'Routine',
-        short_name: 'Spring 23',
-        description: 'Routine | Spring 23', 
-        theme_color: '#1e1e1e',
-        icons: [
-          {
-            src: 'src/assets/img/apwa-192x192.png',
-            sizes: '192x192',
-            type: 'image/png'
-          },
-          {
-            src: 'src/assets/img/pwa-512x512.png',
-            sizes: '512x512',
-            type: 'image/png'
-          }
-        ]
-      }
-    }
-  })
-  ],
-})
+	base: "./",
+	plugins: [react(), VitePWA(manifestForPlugin)],
+});
