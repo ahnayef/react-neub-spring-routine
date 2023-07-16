@@ -8,7 +8,7 @@ export default defineConfig({
   VitePWA({
     registerType: 'autoUpdate', injectRegister: 'auto', workbox: {
       globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
-      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.png'],
+      // includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.png'],
       manifest: {
         name: 'Routine',
         short_name: 'Spring 23',
