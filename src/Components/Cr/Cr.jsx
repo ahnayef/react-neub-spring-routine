@@ -44,7 +44,7 @@ export default function Cr() {
   const handleBackBtn = () => {
     ReactGA.event({
       category: 'CR Page',
-      action: 'Click',
+      action: 'Cr Back Click',
       label: 'Back Button Clicked'
     });
   }
