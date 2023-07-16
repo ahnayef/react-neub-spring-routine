@@ -37,9 +37,22 @@ export default function Routine() {
       // alert("No class today :: Enjoy your day!");
       // window.location.replace("https://discord.gg/jCVgCr37nJ");
       setCheke(false);
-      console.log("No class today :: Enjoy your day!")
+      console.log("No class today :: Enjoy your day!");
+
+      ReactGA.event({
+        category: 'Page Visit',
+        action: 'Day of Week',
+        label: today,
+      });
+
     } else {
-      setCheke(true)
+      setCheke(true);
+      
+      ReactGA.event({
+        category: 'Page Visit',
+        action: 'Day of Week',
+        label: today,
+      });
     }
     setRoutine(routineData[today.toLowerCase()])
     // console.log(today)
