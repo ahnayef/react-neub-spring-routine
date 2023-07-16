@@ -71,7 +71,7 @@ export default function Routine() {
       action: 'Click',
       label: 'Next Button Clicked'
     });
-    
+
 
     date.setDate(date.getDate() + 1);
     //set new day
@@ -80,6 +80,14 @@ export default function Routine() {
     setRoutine(routineData[today.toLowerCase()])
   }
 
+
+  const handleSettingClick = () => {
+    ReactGA.event({
+      category: 'Navigation',
+      action: 'Hamburger Click',
+      label: 'Hamburger Menu Clicked',
+    });
+  };
 
 
   const handleCopy = () => {
@@ -99,7 +107,7 @@ export default function Routine() {
       <ToastContainer theme='dark' />
 
       <div className="settinfIcon">
-        <label htmlFor="settingTr"><AiFillSetting /></label>
+        <label htmlFor="settingTr" onClick={handleSettingClick} ><AiFillSetting /></label>
         <input type="checkbox" name="settingTr" id="settingTr" hidden />
 
         <div className="settingBox">
