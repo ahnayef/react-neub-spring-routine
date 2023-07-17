@@ -11,13 +11,13 @@ const manifestForPlugin = {
 		description: "Spring23 routine app",
 		icons: [
 			{
-				src: "src/assets/img/pwa-icon-512.png",
+				src: "src/assets/img/pwa-icon-512.png",  //dosen't work
 				sizes: "512x512",
 				type: "image/png",
 				purpose: "any maskable",
 			},
 			{
-				src: "src/assets/img/android-chrome-512x512.png",
+				src: "src/assets/img/android-chrome-512x512.png", //dosen't work
 				sizes: "512x512",
 				type: "image/png",
 				purpose: "any maskable",
