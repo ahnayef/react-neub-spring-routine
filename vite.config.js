@@ -32,6 +32,11 @@ const manifestForPlugin= {
 				type: "image/png",
 				purpose: "any maskable",
 			},
+			{
+				src: "src/assets/img/cr.jpg",
+				sizes: "457x450",
+				type: "image/jpg"
+			},
 		],
 		theme_color: "#1e1e1e",
 		background_color: "#1e1e1e",

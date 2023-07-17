@@ -41,8 +41,8 @@ export default function Routine() {
       document.title = `Routine | ${today}`
       ReactGA.event({
         category: 'Page Visit',
-        action: 'Day of Week',
-        label: today,
+        action: `${today}}`,
+        label: `Page Visit ${today}`,
       });
 
     } else {
@@ -51,8 +51,8 @@ export default function Routine() {
       
       ReactGA.event({
         category: 'Page Visit',
-        action: 'Day of Week',
-        label: today,
+        action: `${today}}`,
+        label: `Page Visit ${today}`,
       });
 
 
