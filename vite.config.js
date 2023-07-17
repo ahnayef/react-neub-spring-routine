@@ -20,7 +20,7 @@ const manifestForPlugin = {
 				src: "src/assets/img/apwa-192x192.png", 
 				sizes: "192x192",
 				type: "image/png",
-				purpose: "any maskable",
+				purpose: "any",
 			},
 
 			{
