@@ -4,14 +4,20 @@ import { VitePWA } from "vite-plugin-pwa";
 
 const manifestForPlugin = {
 	registerType: "prompt",
-	includeAssets: ["favicon.ico", "apple-touch-icon.png", "mask-icon.svg", "cr.jpg", "pwa-512x512.png"],
+	includeAssets: ["favicon.ico", "pwa-icon-512.png", "android-chrome-512x512.png", "apple-touch-icon.png", "mask-icon.svg", "cr.jpg"],
 	manifest: {
-		name: "Routine",
-		short_name: "Spring 23",
+		name: "Routine | Spring 23",
+		short_name: "Routine",
 		description: "Spring23 routine app",
 		icons: [
 			{
-				src: "src/assets/img/pwa-512x512.png",
+				src: "src/assets/img/pwa-icon-512.png",
+				sizes: "512x512",
+				type: "image/png",
+				purpose: "any maskable",
+			},
+			{
+				src: "src/assets/img/android-chrome-512x512.png",
 				sizes: "512x512",
 				type: "image/png",
 				purpose: "any maskable",
@@ -25,7 +31,7 @@ const manifestForPlugin = {
 			{
 				src: "src/assets/img/mask-icon.svg",
 				sizes: "144x65",
-				type: "image/svg",
+				type: "image/svg+xml",
 				purpose: "any maskable",
 			},
 			{
@@ -33,7 +39,7 @@ const manifestForPlugin = {
 				sizes: "457x450",
 				type: "image/jpg",
 				purpose: "any maskable",
-			},
+			}
 		],
 		theme_color: "#1e1e1e",
 		background_color: "#1e1e1e",
@@ -47,4 +53,7 @@ const manifestForPlugin = {
 export default defineConfig({
 	base: "./",
 	plugins: [react(), VitePWA(manifestForPlugin)],
+	build: {
+        outDir: "dist",
+    },
 });
