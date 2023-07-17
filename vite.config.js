@@ -4,7 +4,7 @@ import { VitePWA } from "vite-plugin-pwa";
 
 const manifestForPlugin = {
 	registerType: "prompt",
-	includeAssets: ["favicon.ico", "apple-touch-icon.png", "mask-icon.svg"],
+	includeAssets: ["favicon.ico", "apple-touch-icon.png", "mask-icon.svg", "cr.jpg", "pwa-512x512.png"],
 	manifest: {
 		name: "Routine",
 		short_name: "Spring 23",
