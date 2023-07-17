@@ -17,7 +17,7 @@ const manifestForPlugin = {
         purpose: "maskable",
       },
       {
-        src: "src/assets/img/apwa-192x192.png",
+        src: "./apwa-192x192.png",
         sizes: "192x192",
         type: "image/png",
         purpose: "any",
