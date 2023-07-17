@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
 
-const manifestForPlugin= {
+const manifestForPlugin = {
 	registerType: "prompt",
 	includeAssets: ["favicon.ico", "apple-touch-icon.png", "mask-icon.svg"],
 	manifest: {
@@ -10,6 +10,12 @@ const manifestForPlugin= {
 		short_name: "Spring 23",
 		description: "Spring23 routine app",
 		icons: [
+			{
+				src: "src/assets/img/pwa-512x512.png",
+				sizes: "512x512",
+				type: "image/png",
+				purpose: "any maskable",
+			},
 			{
 				src: "src/assets/img/apple-touch-icon.png",
 				sizes: "180x180",
@@ -25,7 +31,8 @@ const manifestForPlugin= {
 			{
 				src: "src/assets/img/cr.jpg",
 				sizes: "457x450",
-				type: "image/jpg"
+				type: "image/jpg",
+				purpose: "any maskable",
 			},
 		],
 		theme_color: "#1e1e1e",
