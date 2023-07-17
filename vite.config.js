@@ -4,17 +4,17 @@ import { VitePWA } from "vite-plugin-pwa";
 
 const manifestForPlugin= {
 	registerType: "prompt",
-	includeAssets: ["favicon.ico", "apple-touch-icon.png", "mask-icon.png"],
+	includeAssets: ["favicon.ico", "apple-touch-icon.png", "mask-icon.svg"],
 	manifest: {
 		name: "Routine",
 		short_name: "Spring 23",
 		description: "Spring23 routine app",
 		icons: [
-			{
-				src: "src/assets/img/android-chrome-512x512.png",
-				sizes: "512x512",
-				type: "image/png",
-			},
+			// {
+			// 	src: "src/assets/img/android-chrome-512x512.png",
+			// 	sizes: "512x512",
+			// 	type: "image/png",
+			// },
 			{
 				src: "src/assets/img/apple-touch-icon.png",
 				sizes: "180x180",
