@@ -11,11 +11,18 @@ const manifestForPlugin = {
 		description: "Spring23 routine app",
 		icons: [
 			{
-				src: "src/assets/img/android-chrome-512x512.png", //dosen't work
+				src: "src/assets/img/android-chrome-512x512.png", 
+				sizes: "512x512",
+				type: "image/png",
+				purpose: "badge",
+			},
+			{
+				src: "src/assets/img/apwa-192x192.png", 
 				sizes: "512x512",
 				type: "image/png",
 				purpose: "any",
 			},
+
 			{
 				src: "src/assets/img/apple-touch-icon.png",
 				sizes: "180x180",
