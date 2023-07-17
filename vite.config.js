@@ -20,7 +20,7 @@ const manifestForPlugin = {
         src: "./apwa-192x192.png",
         sizes: "192x192",
         type: "image/png",
-        purpose: "any",
+        purpose: "any maskable",
       },
       {
         src: "src/assets/img/apple-touch-icon.png",
