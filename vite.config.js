@@ -10,11 +10,6 @@ const manifestForPlugin= {
 		short_name: "Spring 23",
 		description: "Spring23 routine app",
 		icons: [
-			// {
-			// 	src: "src/assets/img/android-chrome-512x512.png",
-			// 	sizes: "512x512",
-			// 	type: "image/png",
-			// },
 			{
 				src: "src/assets/img/apple-touch-icon.png",
 				sizes: "180x180",
