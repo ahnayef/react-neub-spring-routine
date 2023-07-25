@@ -35,7 +35,6 @@ export default function Routine() {
   useEffect(() => {
     if (today === "Friday" || today === "Saturday") {
       // alert("No class today :: Enjoy your day!");
-      // window.location.replace("https://discord.gg/jCVgCr37nJ");
       setCheke(false);
       console.log("No class today :: Enjoy your day!");
       document.title = `Routine | ${today}`
