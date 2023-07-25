@@ -18,16 +18,19 @@ export default function Routinebox(routine) {
 
         ReactGA.event(
             {
+                name:"Subject View",
                 category: "Subject View",
                 action: { name },
-                label: `View ${name} subject`
+                label: `View ${name} subject`,
             },
             {
+                name:"Room",
                 category: "Room",
                 action: { roomNo },
                 label: `Visit ${roomNo}`
             },
             {
+                name:"Teacher",
                 category: "Teacher",
                 action: { teacher },
                 label: `Class taken by ${teacher}`
