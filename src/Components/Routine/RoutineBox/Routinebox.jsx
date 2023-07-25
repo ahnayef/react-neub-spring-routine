@@ -3,12 +3,36 @@ import "./routinebox.css";
 import {FaClock} from 'react-icons/fa';
 import {MdLocationOn} from 'react-icons/md';
 import {AiOutlineAlert} from 'react-icons/ai';
+import { useEffect } from 'react';
+import ReactGA from "react-ga4"
+
 
 export default function Routinebox(routine) {
 
     // console.log(time);
 
     const { courseCode, lab, name, teacher, time, roomNo, section} = routine;
+
+
+    useEffect(()=>{
+    
+        ReactGA.event({
+            category:"Subject View",
+            action:{name},
+            label:`View ${name} subject`
+        })
+        ReactGA.event({
+            category:"Room",
+            action:{roomNo},
+            label:`Visit ${roomNo}`
+        })
+        ReactGA.event({
+            category:"Teacher",
+            action:{teacher},
+            label:`Class taken by ${teacher}`
+        })
+
+    },[]);
 
     return (
         <div className="routineBox">

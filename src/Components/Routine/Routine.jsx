@@ -51,7 +51,7 @@ export default function Routine() {
       
       ReactGA.event({
         category: 'Page Visit',
-        action: `${today}}`,
+        action: `${today}`,
         label: `Page Visit ${today}`,
       });
 
