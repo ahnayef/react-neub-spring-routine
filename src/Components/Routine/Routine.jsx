@@ -20,7 +20,8 @@ export default function Routine() {
 
 
   ReactGA.initialize(import.meta.env.VITE_GA_MID);
-  ReactGA.send("pageview");
+  // ReactGA.send("pageview");
+
 
 
 
@@ -33,6 +34,17 @@ export default function Routine() {
   const [check, setCheke] = useState(false);
 
   useEffect(() => {
+
+    ReactGA.send({
+      hitType: 'pageview',
+      page: window.location.pathname + window.location.search,
+      dimension1: navigator.userAgent,
+      dimension2: navigator.language,
+      dimension3: navigator.oscpu,
+      dimension4: navigator.userAgentData.brands[0].brand
+    });
+    
+
     if (today === "Friday" || today === "Saturday") {
       // alert("No class today :: Enjoy your day!");
       setCheke(false);
@@ -58,6 +70,7 @@ export default function Routine() {
     }
     setRoutine(routineData[today.toLowerCase()])
     // console.log(today)
+
 
   }, [today, routine, date]);
 
