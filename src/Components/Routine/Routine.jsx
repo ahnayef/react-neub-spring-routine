@@ -35,24 +35,6 @@ export default function Routine() {
 
 
 
-  const deviceDetector = new DeviceDetector();
-  const device = deviceDetector.parse(navigator.userAgent);
-
-  const deviceInfo = {
-    client: `${device.client.name} ${device.client.version} ${device.client.type}`,
-    os: `${device.os.name} ${device.os.version} ${device.os.platform}`,
-    device: device.device.type,
-    isbot: device.bot || "Not a bot",
-  }
-  ReactGA.send({
-    hitType: 'pageview',
-    page: window.location.pathname + window.location.search,
-    client: deviceInfo.client,
-    os: deviceInfo.os,
-    device: deviceInfo.device,
-    isbot: deviceInfo.isbot,
-  });
-
 
   useEffect(() => {
 
@@ -68,6 +50,26 @@ export default function Routine() {
     //   isbot: deviceInfo.isbot,
     // });
 
+
+
+
+    const deviceDetector = new DeviceDetector();
+    const device = deviceDetector.parse(navigator.userAgent);
+
+    const deviceInfo = {
+      client: `${device.client.name} ${device.client.version} ${device.client.type}`,
+      os: `${device.os.name} ${device.os.version} ${device.os.platform}`,
+      device: device.device.type,
+      isbot: device.bot || "Not a bot",
+    }
+    ReactGA.send({
+      hitType: 'pageview',
+      page: window.location.pathname + window.location.search,
+      client: deviceInfo.client,
+      os: deviceInfo.os,
+      device: deviceInfo.device,
+      isbot: deviceInfo.isbot,
+    });
 
     if (today === "Friday" || today === "Saturday") {
       // alert("No class today :: Enjoy your day!");
