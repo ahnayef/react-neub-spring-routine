@@ -7,20 +7,20 @@ import Routinebox from './RoutineBox/Routinebox';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { AiFillSetting } from "react-icons/ai";
-import { FaDiscord, FaFacebookMessenger, FaFilePdf, FaGithub, FaLink, FaShareAlt, FaTelegramPlane, FaTimes } from "react-icons/fa"
-import pdfLink from "../../assets/pdf/routine.pdf";
+import { FaDiscord, FaFacebookMessenger, FaGithub, FaLink, FaShareAlt, FaTelegramPlane, FaTimes } from "react-icons/fa"
 import "animate.css"
 import Weekend from '../Weekend/Weekend'
 import { Link } from 'react-router-dom';
 import { BiMessageRounded } from 'react-icons/bi'
 import ReactGA from 'react-ga4';
+import DeviceDetector from "device-detector-js";
 
 export default function Routine() {
 
 
 
   ReactGA.initialize(import.meta.env.VITE_GA_MID);
-  // ReactGA.send("pageview");
+  ReactGA.send("pageview");
 
 
 
@@ -35,15 +35,40 @@ export default function Routine() {
 
   useEffect(() => {
 
-    ReactGA.send({
-      hitType: 'pageview',
-      page: window.location.pathname + window.location.search,
-      dimension1: navigator.userAgent,
-      dimension2: navigator.language,
-      dimension3: navigator.oscpu,
-      dimension4: navigator.userAgentData.brands[0].brand
-    });
+    // ReactGA.send({
+    //   hitType: 'pageview',
+    //   page: window.location.pathname + window.location.search,
+    //   dimension1: navigator.userAgent,
+    //   dimension2: navigator.language,
+    //   dimension3: navigator.oscpu,
+    //   dimension4: navigator.userAgentData.brands[0].brand
+    // });
+
+    const deviceDetector = new DeviceDetector();
+    const device = deviceDetector.parse(navigator.userAgent);
+
     
+    // console.log(device);
+
+    const deviceInfo = {
+      client: `${device.client.name} ${device.client.version} ${device.client.type}`,
+      os: `${device.os.name} ${device.os.version} ${device.os.platform}`,
+      device: device.device.type,
+      isbot: device.bot || "Not a bot",
+    }
+    
+    // console.log(deviceInfo);
+
+    ReactGA.event({
+      category: 'Device Info',
+      action: 'Device Info',
+      label: 'Device Info',
+      client: deviceInfo.client,
+      os: deviceInfo.os,
+      device: deviceInfo.device,
+      isbot: deviceInfo.isbot,
+    });
+
 
     if (today === "Friday" || today === "Saturday") {
       // alert("No class today :: Enjoy your day!");
@@ -59,7 +84,7 @@ export default function Routine() {
     } else {
       setCheke(true);
       document.title = `Routine | ${today}`
-      
+
       ReactGA.event({
         category: 'Page Visit',
         action: `${today}`,
