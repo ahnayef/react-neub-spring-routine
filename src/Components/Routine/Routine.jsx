@@ -20,7 +20,7 @@ export default function Routine() {
 
 
   ReactGA.initialize(import.meta.env.VITE_GA_MID);
-  ReactGA.send("pageview");
+  // ReactGA.send("pageview");
 
 
 
@@ -51,8 +51,6 @@ export default function Routine() {
     // });
 
 
-
-
     const deviceDetector = new DeviceDetector();
     const device = deviceDetector.parse(navigator.userAgent);
 
@@ -62,27 +60,27 @@ export default function Routine() {
       device: device.device.type,
       isbot: device.bot || "Not a bot",
     }
-
-    ReactGA.event({
-      category: 'Device Info',
-      action: 'Device Info',
-      label: 'Device Info',
-      client: deviceInfo.client || "Unknown",
-      os: deviceInfo.os || "Unknown",
-      device: deviceInfo.device || "Unknown",
-      isbot: deviceInfo.isbot || "Unknown",
+    ReactGA.send({
+      hitType: 'pageview',
+      page: window.location.pathname + window.location.search,
+      client: deviceInfo.client,
+      os: deviceInfo.os,
+      device: deviceInfo.device,
+      isbot: deviceInfo.isbot,
     });
 
-
-
-    // ReactGA.send({
-    //   hitType: 'pageview',
-    //   page: window.location.pathname + window.location.search,
-    //   client: deviceInfo.client,
-    //   os: deviceInfo.os,
-    //   device: deviceInfo.device,
-    //   isbot: deviceInfo.isbot,
+    // ReactGA.event({
+    //   category: 'Device Info',
+    //   action: 'Device Info',
+    //   label: 'Device Info',
+    //   client: deviceInfo.client || "Unknown",
+    //   os: deviceInfo.os || "Unknown",
+    //   device: deviceInfo.device || "Unknown",
+    //   isbot: deviceInfo.isbot || "Unknown",
     // });
+
+
+
 
 
 
