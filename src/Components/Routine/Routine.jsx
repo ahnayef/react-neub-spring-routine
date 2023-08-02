@@ -62,14 +62,16 @@ export default function Routine() {
       device: device.device.type,
       isbot: device.bot || "Not a bot",
     }
+
     ReactGA.send({
       hitType: 'pageview',
       page: window.location.pathname + window.location.search,
-      client: deviceInfo.client,
-      os: deviceInfo.os,
-      device: deviceInfo.device,
-      isbot: deviceInfo.isbot,
+      dimension1: deviceInfo.client,
+      dimension2: deviceInfo.os,
+      dimension3: deviceInfo.device,
+      dimension4: deviceInfo.isbot,
     });
+    
 
     if (today === "Friday" || today === "Saturday") {
       // alert("No class today :: Enjoy your day!");
