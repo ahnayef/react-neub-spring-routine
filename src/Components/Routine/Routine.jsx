@@ -20,7 +20,7 @@ export default function Routine() {
 
 
   ReactGA.initialize(import.meta.env.VITE_GA_MID);
-  ReactGA.send("pageview");
+  // ReactGA.send("pageview");
 
 
 
@@ -33,41 +33,40 @@ export default function Routine() {
 
   const [check, setCheke] = useState(false);
 
+
+
+  const deviceDetector = new DeviceDetector();
+  const device = deviceDetector.parse(navigator.userAgent);
+
+  const deviceInfo = {
+    client: `${device.client.name} ${device.client.version} ${device.client.type}`,
+    os: `${device.os.name} ${device.os.version} ${device.os.platform}`,
+    device: device.device.type,
+    isbot: device.bot || "Not a bot",
+  }
+  ReactGA.send({
+    hitType: 'pageview',
+    page: window.location.pathname + window.location.search,
+    client: deviceInfo.client,
+    os: deviceInfo.os,
+    device: deviceInfo.device,
+    isbot: deviceInfo.isbot,
+  });
+
+
   useEffect(() => {
 
-    // ReactGA.send({
-    //   hitType: 'pageview',
-    //   page: window.location.pathname + window.location.search,
-    //   dimension1: navigator.userAgent,
-    //   dimension2: navigator.language,
-    //   dimension3: navigator.oscpu,
-    //   dimension4: navigator.userAgentData.brands[0].brand
-    // });
-
-    const deviceDetector = new DeviceDetector();
-    const device = deviceDetector.parse(navigator.userAgent);
-
-    
     // console.log(device);
-
-    const deviceInfo = {
-      client: `${device.client.name} ${device.client.version} ${device.client.type}`,
-      os: `${device.os.name} ${device.os.version} ${device.os.platform}`,
-      device: device.device.type,
-      isbot: device.bot || "Not a bot",
-    }
-    
     // console.log(deviceInfo);
-
-    ReactGA.event({
-      category: 'Device Info',
-      action: 'Device Info',
-      label: 'Device Info',
-      client: deviceInfo.client,
-      os: deviceInfo.os,
-      device: deviceInfo.device,
-      isbot: deviceInfo.isbot,
-    });
+    // ReactGA.event({
+    //   category: 'Device Info',
+    //   action: 'Device Info',
+    //   label: 'Device Info',
+    //   client: deviceInfo.client,
+    //   os: deviceInfo.os,
+    //   device: deviceInfo.device,
+    //   isbot: deviceInfo.isbot,
+    // });
 
 
     if (today === "Friday" || today === "Saturday") {
@@ -97,7 +96,7 @@ export default function Routine() {
     // console.log(today)
 
 
-  }, [today, routine, date]);
+  }, [today]);
 
 
 
