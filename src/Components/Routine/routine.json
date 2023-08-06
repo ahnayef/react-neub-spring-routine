@@ -95,7 +95,7 @@
     "wednesday": [
         {
             "name": "Advanced Functional English",
-            "teacher": "Unknown",
+            "teacher": "TBAE",
             "time": ["8:30 - 9:55"],
             "roomNo": "R-402",
             "courseCode":"ENG-02321201"
@@ -118,7 +118,7 @@
     "thursday": [
         {
             "name": "Advanced Functional English",
-            "teacher": "Unknown",
+            "teacher": "TBAE",
             "time": ["8:30 - 9:55"],
             "roomNo": "R-402",
             "courseCode":"ENG-02321201"
