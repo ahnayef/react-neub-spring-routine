@@ -63,7 +63,7 @@
         },
         {
             "name": "Bangladesh Studies",
-            "teacher": "Unknown",
+            "teacher": "IHM",
             "time": ["2:30 - 3:55"],
             "roomNo": "R-412",
             "courseCode":"SSW-03141202"
@@ -125,7 +125,7 @@
         },
         {
             "name": "Bangladesh Studies",
-            "teacher": "Unknown",
+            "teacher": "IHM",
             "time": ["11:30 - 12:55"],
             "roomNo": "R-312",
             "courseCode":"SSW-03141202"
