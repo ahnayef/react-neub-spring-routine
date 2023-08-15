@@ -8,9 +8,6 @@ dependencies:
   animate.css:
     specifier: ^4.1.1
     version: 4.1.1
-  device-detector-js:
-    specifier: ^3.0.3
-    version: 3.0.3
   party-js:
     specifier: ^2.2.0
     version: 2.2.0
@@ -2072,11 +2069,6 @@ packages:
       has-property-descriptors: 1.0.0
       object-keys: 1.1.1
     dev: true
-
-  /device-detector-js@3.0.3:
-    resolution: {integrity: sha512-jM89LJAvP6uOd84at8OlD9dWP8KeYCCHUde0RT0HQo/stdoRH4b54Xl/fntx2nEXCmqiFhmo+/cJetS2VGUHPw==}
-    engines: {node: '>= 8.11.4'}
-    dev: false
 
   /ejs@3.1.9:
     resolution: {integrity: sha512-rC+QVNMJWv+MtPgkt0y+0rVEIdbtxVADApW9JXrUVlzHetgcyczP/E7DJmWJ4fJCZF2cPcBk0laWO9ZHMG3DmQ==}

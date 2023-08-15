@@ -13,14 +13,14 @@ import Weekend from '../Weekend/Weekend'
 import { Link } from 'react-router-dom';
 import { BiMessageRounded } from 'react-icons/bi'
 import ReactGA from 'react-ga4';
-import DeviceDetector from "device-detector-js";
+// import DeviceDetector from "device-detector-js";
 
 export default function Routine() {
 
 
 
   ReactGA.initialize(import.meta.env.VITE_GA_MID);
-  // ReactGA.send("pageview");
+  ReactGA.send("pageview");
 
 
 
@@ -38,50 +38,24 @@ export default function Routine() {
 
   useEffect(() => {
 
-    // console.log(device);
-    // console.log(deviceInfo);
-    // ReactGA.event({
-    //   category: 'Device Info',
-    //   action: 'Device Info',
-    //   label: 'Device Info',
+
+    // const deviceDetector = new DeviceDetector();
+    // const device = deviceDetector.parse(navigator.userAgent);
+
+    // const deviceInfo = {
+    //   client: `${device.client.name} ${device.client.version} ${device.client.type}`,
+    //   os: `${device.os.name} ${device.os.version} ${device.os.platform}`,
+    //   device: device.device.type,
+    //   isbot: device.bot || "Not a bot",
+    // }
+    // ReactGA.send({
+    //   hitType: 'pageview',
+    //   page: window.location.pathname + window.location.search,
     //   client: deviceInfo.client,
     //   os: deviceInfo.os,
     //   device: deviceInfo.device,
     //   isbot: deviceInfo.isbot,
     // });
-
-
-    const deviceDetector = new DeviceDetector();
-    const device = deviceDetector.parse(navigator.userAgent);
-
-    const deviceInfo = {
-      client: `${device.client.name} ${device.client.version} ${device.client.type}`,
-      os: `${device.os.name} ${device.os.version} ${device.os.platform}`,
-      device: device.device.type,
-      isbot: device.bot || "Not a bot",
-    }
-    ReactGA.send({
-      hitType: 'pageview',
-      page: window.location.pathname + window.location.search,
-      client: deviceInfo.client,
-      os: deviceInfo.os,
-      device: deviceInfo.device,
-      isbot: deviceInfo.isbot,
-    });
-
-    // ReactGA.event({
-    //   category: 'Device Info',
-    //   action: 'Device Info',
-    //   label: 'Device Info',
-    //   client: deviceInfo.client || "Unknown",
-    //   os: deviceInfo.os || "Unknown",
-    //   device: deviceInfo.device || "Unknown",
-    //   isbot: deviceInfo.isbot || "Unknown",
-    // });
-
-
-
-
 
 
     if (today === "Friday" || today === "Saturday") {
