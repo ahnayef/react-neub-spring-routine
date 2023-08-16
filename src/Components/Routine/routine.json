@@ -16,7 +16,7 @@
         },
         {
             "name": "DSA Lab",
-            "teacher": "MM",
+            "teacher": "Moumita Mou",
             "time": ["11:30 - 2:25"],
             "roomNo": "R-301",
             "lab":true,
@@ -54,7 +54,7 @@
         },
         {
             "name": "DSA Lab",
-            "teacher": "MM",
+            "teacher": "Moumita Mou",
             "time": ["11:30 - 2:25"],
             "roomNo": "R-309",
             "lab":true,
@@ -63,7 +63,7 @@
         },
         {
             "name": "Bangladesh Studies",
-            "teacher": "IHM",
+            "teacher": "I.H.Milon",
             "time": ["2:30 - 3:55"],
             "roomNo": "R-412",
             "courseCode":"SSW-03141202"
@@ -86,7 +86,7 @@
         },
         {
             "name": "Data Structure & Algorithms",
-            "teacher": "MM",
+            "teacher": "Moumita Mou",
             "time": ["Section A: 11:30 - 12:55","Sention B: 1:00 - 2:25"],
             "roomNo": "R-412",
             "courseCode":"CSE-06131211"
@@ -109,7 +109,7 @@
         },
         {
             "name": "Data Structure & Algorithms",
-            "teacher": "MM",
+            "teacher": "Moumita Mou",
             "time": ["Section B: 11:30 - 12:55","Sention A: 1:00 - 2:25"],
             "roomNo": "R-412",
             "courseCode":"CSE-06131211"
@@ -125,7 +125,7 @@
         },
         {
             "name": "Bangladesh Studies",
-            "teacher": "IHM",
+            "teacher": "I.H.Milon",
             "time": ["11:30 - 12:55"],
             "roomNo": "R-312",
             "courseCode":"SSW-03141202"
