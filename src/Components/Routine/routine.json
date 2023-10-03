@@ -87,7 +87,7 @@
         {
             "name": "Data Structure & Algorithms",
             "teacher": "Moumita Mou",
-            "time": ["Section A: 11:30 - 12:55","Sention B: 1:00 - 2:25"],
+            "time": ["1:00 - 2:25"],
             "roomNo": "R-412",
             "courseCode":"CSE-06131211"
         }
@@ -110,7 +110,7 @@
         {
             "name": "Data Structure & Algorithms",
             "teacher": "Moumita Mou",
-            "time": ["Section B: 11:30 - 12:55","Sention A: 1:00 - 2:25"],
+            "time": ["11:30 - 12:55"],
             "roomNo": "R-412",
             "courseCode":"CSE-06131211"
         }
