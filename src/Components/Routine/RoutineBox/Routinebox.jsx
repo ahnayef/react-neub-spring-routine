@@ -11,7 +11,7 @@ export default function Routinebox(routine) {
 
     // console.log(time);
 
-    const { courseCode, lab, name, teacher, time, roomNo, section } = routine;
+    const { courseCode, lab, name, teacher, time, roomNo, section, joinLink } = routine;
 
 
     useEffect(() => {
@@ -54,6 +54,7 @@ export default function Routinebox(routine) {
             </div>
             <h3><i><MdLocationOn /></i> {roomNo}</h3>
             {section && <h3><i className='alertSec'><AiOutlineAlert /></i> {section} <b>only</b></h3>}
+            {joinLink && <a href={joinLink} target='_' className='btn'>Join</a>}
         </div>
     )
 }

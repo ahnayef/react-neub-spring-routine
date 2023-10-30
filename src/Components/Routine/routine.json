@@ -5,7 +5,8 @@
             "teacher": "Mr. Shahadat Hussain Parvez",
             "time": ["10:00 - 11:25"],
             "roomNo": "R-312",
-            "courseCode":"CSE-06131213"
+            "courseCode":"CSE-06131213",
+            "joinLink":"https://bdren.zoom.us/j/91942802361"
         },
         {
             "name": "DSA Lab",
@@ -23,7 +24,8 @@
             "roomNo": "R-310",
             "lab":true,
             "section":"Section B",
-            "courseCode":"CSE-06131214"
+            "courseCode":"CSE-06131214",
+            "joinLink":"https://bdren.zoom.us/j/91942802361"
         }
       
         
@@ -34,7 +36,8 @@
             "teacher": "Mr. Rathindra Chandra Gope",
             "time": ["10:00 - 11:25"],
             "roomNo": "R-312",
-            "courseCode":"MAT-05411203"
+            "courseCode":"MAT-05411203",
+            "joinLink":"https://meet.google.com/irf-ybjc-hqv"
         },
         {
             "name": "EDC Lab",
@@ -43,7 +46,8 @@
             "roomNo": "R-310",
             "lab":true,
             "section":"Section A",
-            "courseCode":"CSE-06131214"
+            "courseCode":"CSE-06131214",
+            "joinLink":"https://bdren.zoom.us/j/91942802361"
         },
         {
             "name": "DSA Lab",
@@ -75,7 +79,8 @@
             "teacher": "Mr. Shahadat Hussain Parvez",
             "time": ["10:00 - 11:25"],
             "roomNo": "R-312",
-            "courseCode":"CSE-06131213" 
+            "courseCode":"CSE-06131213" ,
+            "joinLink":"https://bdren.zoom.us/j/91942802361"
         },
         {
             "name": "Data Structure & Algorithms",
@@ -98,7 +103,8 @@
             "teacher": "Mr. Rathindra Chandra Gope",
             "time": ["10:00 - 11:25"],
             "roomNo": "R-412",
-            "courseCode":"MAT-05411203"
+            "courseCode":"MAT-05411203",
+            "joinLink":"https://meet.google.com/irf-ybjc-hqv"
         },
         {
             "name": "Data Structure & Algorithms",
