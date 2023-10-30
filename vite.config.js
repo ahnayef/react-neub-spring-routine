@@ -9,6 +9,20 @@ const manifestForPlugin = {
     name: "Routine | Spring 23",
     short_name: "Routine",
     description: "Spring23 routine app",
+    shortcuts:[
+      {
+        name: "AHN",
+        short_name: "Contact AHN",
+        description: "Don't be shy",
+        url: "https://github.com/ahnayef",
+        icons: [
+          {
+            src: "src/assets/img/ahn.png",
+            sizes: "512x512"
+          }
+        ]
+      },
+    ],
     icons: [
       {
         src: "src/assets/img/android-chrome-512x512.png",
