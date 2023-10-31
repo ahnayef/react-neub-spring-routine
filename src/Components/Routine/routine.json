@@ -96,7 +96,8 @@
             "teacher": "Sonjoy Boishnob",
             "time": ["8:30 - 9:55"],
             "roomNo": "R-413",
-            "courseCode":"ENG-02321201"
+            "courseCode":"ENG-02321201",
+            "joinLink":"https://skyzh.github.io/zoom-url-generator/?jump=true&confno=367668944&pwd=&uname=😏"
         },
         {
             "name": "Linear Algebra",
@@ -111,7 +112,8 @@
             "teacher": "Muthmainna Mou",
             "time": ["1:00 - 2:25"],
             "roomNo": "R-412",
-            "courseCode":"CSE-06131211"
+            "courseCode":"CSE-06131211",
+            "joinLink":"https://meet.google.com/ovi-fqgx-bkn"
         }
     ],
     "thursday": [
