@@ -122,14 +122,16 @@
             "teacher": "Sonjoy Boishnob",
             "time": ["8:30 - 9:55"],
             "roomNo": "R-413",
-            "courseCode":"ENG-02321201"
+            "courseCode":"ENG-02321201",
+            "joinLink":"https://us04web.zoom.us/j/3676689441?pwd=CbvAHZrJu9tavTJpRrrO600yVJJdYI.1"
         },
         {
             "name": "Fundamentals of Physics",
             "teacher": "Shahadat Hossain",
             "time": ["10:00 - 11:25"],
             "roomNo": "R-412",
-            "courseCode":"PHY-05331201"
+            "courseCode":"PHY-05331201",
+            "joinLink": "zoomus://zoom.us/join?confno=6565720553"
         },
         {
             "name": "Bangladesh Studies",
