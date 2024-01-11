@@ -75,27 +75,18 @@
     "wednesday": [
         {
             "name": "Advanced Functional English",
-            "teacher": "Sonjoy Boishnob",
-            "time": ["8:30 - 9:55"],
-            "roomNo": "R-413",
-            "courseCode":"ENG-02321201",
-            "joinLink":"zoomus://zoom.us/join?confno=3676689441"
+            "teacher": "KMA",
+            "time": ["8:30 - 12:55"],
+            "roomNo": "R-309",
+            "courseCode":"CSE-06132116"
         },
         {
             "name": "Linear Algebra",
-            "teacher": "Mr. Rathindra Chandra Gope",
-            "time": ["10:00 - 11:25"],
-            "roomNo": "R-412",
-            "courseCode":"MAT-05411203",
-            "joinLink":"https://meet.google.com/irf-ybjc-hqv"
-        },
-        {
-            "name": "Data Structure & Algorithms",
-            "teacher": "Muthmainna Mou",
+            "teacher": "MNU",
             "time": ["1:00 - 2:25"],
             "roomNo": "R-412",
-            "courseCode":"CSE-06131211",
-            "joinLink":"https://meet.google.com/ovi-fqgx-bkn"
+            "courseCode":"BUS-04112101",
+            "lab":true
         }
     ],
     "thursday": [
