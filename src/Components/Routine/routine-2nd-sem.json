@@ -1,0 +1,151 @@
+{
+    "sunday": [
+        {
+            "name": "Electronics devices & circuit",
+            "teacher": "Mr. Shahadat Hussain Parvez",
+            "time": ["10:00 - 11:25"],
+            "roomNo": "R-312",
+            "courseCode":"CSE-06131213",
+            "joinLink":"https://bdren.zoom.us/j/91942802361"
+        },
+        {
+            "name": "DSA Lab",
+            "teacher": "Muthmainna Mou",
+            "time": ["11:30 - 2:25"],
+            "roomNo": "R-301",
+            "lab":true,
+            "section":"Section A",
+            "courseCode":"CSE-06131212"
+        },
+        {
+            "name": "EDC Lab",
+            "teacher": "Mr. Shahadat Hussain Parvez",
+            "time": ["11:30 - 2:25"],
+            "roomNo": "R-310",
+            "lab":true,
+            "section":"Section B",
+            "courseCode":"CSE-06131214",
+            "joinLink":"https://bdren.zoom.us/j/91942802361"
+        }
+      
+        
+    ],
+    "monday": [
+        {
+            "name": "Linear Algebra",
+            "teacher": "Mr. Rathindra Chandra Gope",
+            "time": ["10:00 - 11:25"],
+            "roomNo": "R-312",
+            "courseCode":"MAT-05411203",
+            "joinLink":"https://meet.google.com/irf-ybjc-hqv"
+        },
+        {
+            "name": "EDC Lab",
+            "teacher": "Mr. Shahadat Hussain Parvez",
+            "time": ["11:30 - 2:25"],
+            "roomNo": "R-310",
+            "lab":true,
+            "section":"Section A",
+            "courseCode":"CSE-06131214",
+            "joinLink":"https://bdren.zoom.us/j/91942802361"
+        },
+        {
+            "name": "DSA Lab",
+            "teacher": "Muthmainna Mou",
+            "time": ["11:30 - 2:25"],
+            "roomNo": "R-309",
+            "lab":true,
+            "section":"Section B",
+            "courseCode":"CSE-06131212"
+        },
+        {
+            "name": "Bangladesh Studies",
+            "teacher": "I.H.Milon",
+            "time": ["2:30 - 3:55"],
+            "roomNo": "R-412",
+            "courseCode":"SSW-03141202"
+        }
+    ],
+    "tuesday": [
+        {
+            "name": "Fundamentals of Physics",
+            "teacher": "Shahadat Hossain",
+            "time": ["8:30 - 9:55"  ],
+            "roomNo": "R-412",
+            "courseCode":"PHY-05331201"
+        },
+        {
+            "name": "Electronics devices & circuit",
+            "teacher": "Mr. Shahadat Hussain Parvez",
+            "time": ["10:00 - 11:25"],
+            "roomNo": "R-312",
+            "courseCode":"CSE-06131213" ,
+            "joinLink":"https://bdren.zoom.us/j/91942802361"
+        },
+        {
+            "name": "Data Structure & Algorithms",
+            "teacher": "Muthmainna Mou",
+            "time": ["11:30 - 12:55"],
+            "roomNo": "R-412",
+            "courseCode":"CSE-06131211"
+        }
+    ],
+    "wednesday": [
+        {
+            "name": "Advanced Functional English",
+            "teacher": "Sonjoy Boishnob",
+            "time": ["8:30 - 9:55"],
+            "roomNo": "R-413",
+            "courseCode":"ENG-02321201",
+            "joinLink":"zoomus://zoom.us/join?confno=3676689441"
+        },
+        {
+            "name": "Linear Algebra",
+            "teacher": "Mr. Rathindra Chandra Gope",
+            "time": ["10:00 - 11:25"],
+            "roomNo": "R-412",
+            "courseCode":"MAT-05411203",
+            "joinLink":"https://meet.google.com/irf-ybjc-hqv"
+        },
+        {
+            "name": "Data Structure & Algorithms",
+            "teacher": "Muthmainna Mou",
+            "time": ["1:00 - 2:25"],
+            "roomNo": "R-412",
+            "courseCode":"CSE-06131211",
+            "joinLink":"https://meet.google.com/ovi-fqgx-bkn"
+        }
+    ],
+    "thursday": [
+        {
+            "name": "Advanced Functional English",
+            "teacher": "Sonjoy Boishnob",
+            "time": ["8:30 - 9:55"],
+            "roomNo": "R-413",
+            "courseCode":"ENG-02321201",
+            "joinLink":"https://us04web.zoom.us/j/3676689441?pwd=CbvAHZrJu9tavTJpRrrO600yVJJdYI.1"
+        },
+        {
+            "name": "Fundamentals of Physics",
+            "teacher": "Shahadat Hossain",
+            "time": ["10:00 - 11:25"],
+            "roomNo": "R-412",
+            "courseCode":"PHY-05331201",
+            "joinLink": "zoomus://zoom.us/join?confno=6565720553"
+        },
+        {
+            "name": "Bangladesh Studies",
+            "teacher": "I.H.Milon",
+            "time": ["11:30 - 12:55"],
+            "roomNo": "R-312",
+            "courseCode":"SSW-03141202"
+        },
+        {
+            "name": "ACM",
+            "teacher": "Mr. Ayon Dey",
+            "time": ["1:00 - 3:55"],
+            "roomNo": "R-301",
+            "courseCode":" "
+        }
+    ]
+}
