@@ -2,30 +2,24 @@
     "sunday": [
         {
             "name": "Electronics devices & circuit",
-            "teacher": "Mr. Shahadat Hussain Parvez",
-            "time": ["10:00 - 11:25"],
-            "roomNo": "R-312",
-            "courseCode":"CSE-06131213",
-            "joinLink":"https://bdren.zoom.us/j/91942802361"
+            "teacher": "MSU",
+            "time": ["8:30 - 9:55"],
+            "roomNo": "R-412",
+            "courseCode":"STA-05422101"
         },
         {
             "name": "DSA Lab",
-            "teacher": "Muthmainna Mou",
-            "time": ["11:30 - 2:25"],
-            "roomNo": "R-301",
-            "lab":true,
-            "section":"Section A",
-            "courseCode":"CSE-06131212"
+            "teacher": "KMA",
+            "time": ["10:00 - 11:25"],
+            "roomNo": "R-214",
+            "courseCode":"CSE-06132115"
         },
         {
             "name": "EDC Lab",
-            "teacher": "Mr. Shahadat Hussain Parvez",
-            "time": ["11:30 - 2:25"],
-            "roomNo": "R-310",
-            "lab":true,
-            "section":"Section B",
-            "courseCode":"CSE-06131214",
-            "joinLink":"https://bdren.zoom.us/j/91942802361"
+            "teacher": "Muthmainna Mou",
+            "time": ["11:30 - 12:55"],
+            "roomNo": "R-206",
+            "courseCode":"CSE-06132113"
         }
       
         
