@@ -27,37 +27,26 @@
     "monday": [
         {
             "name": "Linear Algebra",
-            "teacher": "Mr. Rathindra Chandra Gope",
-            "time": ["10:00 - 11:25"],
-            "roomNo": "R-312",
-            "courseCode":"MAT-05411203",
-            "joinLink":"https://meet.google.com/irf-ybjc-hqv"
+            "teacher": "Muthmainna Mou",
+            "time": ["8:30 - 11:25"],
+            "roomNo": "R-309",
+            "courseCode":"CSE-06132114",
+            "lab":true
         },
         {
             "name": "EDC Lab",
-            "teacher": "Mr. Shahadat Hussain Parvez",
-            "time": ["11:30 - 2:25"],
-            "roomNo": "R-310",
+            "teacher": "PSD",
+            "time": ["11:30 - 12:55"],
+            "roomNo": "R-412",
             "lab":true,
-            "section":"Section A",
-            "courseCode":"CSE-06131214",
-            "joinLink":"https://bdren.zoom.us/j/91942802361"
+            "courseCode":"CSE-06132111"
         },
         {
             "name": "DSA Lab",
-            "teacher": "Muthmainna Mou",
-            "time": ["11:30 - 2:25"],
-            "roomNo": "R-309",
-            "lab":true,
-            "section":"Section B",
-            "courseCode":"CSE-06131212"
-        },
-        {
-            "name": "Bangladesh Studies",
-            "teacher": "I.H.Milon",
-            "time": ["2:30 - 3:55"],
-            "roomNo": "R-412",
-            "courseCode":"SSW-03141202"
+            "teacher": "MNU",
+            "time": ["1:00 - 2:25"],
+            "roomNo": "R-312",
+            "courseCode":"BUS-04112101"
         }
     ],
     "tuesday": [
