@@ -77,7 +77,8 @@
             "teacher": "K. M. Asif-uz-zaman",
             "time": ["8:30 - 12:55"],
             "roomNo": "R-309",
-            "courseCode":"CSE-06132116"
+            "courseCode":"CSE-06132116",
+            "lab":true
         },
         {
             "name": "Principles of Accounting",
