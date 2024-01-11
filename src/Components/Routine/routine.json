@@ -38,7 +38,6 @@
             "teacher": "Mr. Pranta Sarker",
             "time": ["11:30 - 12:55"],
             "roomNo": "R-412",
-            "lab":true,
             "courseCode":"CSE-06132111"
         },
         {
@@ -85,8 +84,7 @@
             "teacher": "Mr. Nasir Uddin",
             "time": ["1:00 - 2:25"],
             "roomNo": "R-412",
-            "courseCode":"BUS-04112101",
-            "lab":true
+            "courseCode":"BUS-04112101"
         }
     ],
     "thursday": [
