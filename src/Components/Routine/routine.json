@@ -1,21 +1,21 @@
 {
     "sunday": [
         {
-            "name": "Electronics devices & circuit",
-            "teacher": "MSU",
+            "name": "Basic Statistics and Probability",
+            "teacher": "Mr. Mohammad Salah Uddin",
             "time": ["8:30 - 9:55"],
             "roomNo": "R-412",
             "courseCode":"STA-05422101"
         },
         {
-            "name": "DSA Lab",
-            "teacher": "KMA",
+            "name": "Digital Logic Design",
+            "teacher": "K. M. Asif-uz-zaman",
             "time": ["10:00 - 11:25"],
             "roomNo": "R-214",
             "courseCode":"CSE-06132115"
         },
         {
-            "name": "EDC Lab",
+            "name": "Algorithm Design & Analysis",
             "teacher": "Muthmainna Mou",
             "time": ["11:30 - 12:55"],
             "roomNo": "R-206",
@@ -26,7 +26,7 @@
     ],
     "monday": [
         {
-            "name": "Linear Algebra",
+            "name": "Algorithm Design & Analysis Lab",
             "teacher": "Muthmainna Mou",
             "time": ["8:30 - 11:25"],
             "roomNo": "R-309",
@@ -34,16 +34,16 @@
             "lab":true
         },
         {
-            "name": "EDC Lab",
-            "teacher": "PSD",
+            "name": "Object Oriented Programming Language",
+            "teacher": "Mr. Pranta Sarker",
             "time": ["11:30 - 12:55"],
             "roomNo": "R-412",
             "lab":true,
             "courseCode":"CSE-06132111"
         },
         {
-            "name": "DSA Lab",
-            "teacher": "MNU",
+            "name": "Principles of Accounting",
+            "teacher": "Mr. Nasir Uddin",
             "time": ["1:00 - 2:25"],
             "roomNo": "R-312",
             "courseCode":"BUS-04112101"
@@ -51,21 +51,21 @@
     ],
     "tuesday": [
         {
-            "name": "Electronics devices & circuit",
-            "teacher": "PSD",
+            "name": "Object Oriented Programming Language",
+            "teacher": "Mr. Pranta Sarker",
             "time": ["10:00 - 11:25"],
             "roomNo": "R-412",
             "courseCode":"CSE-06132111" 
         },
         {
-            "name": "Fundamentals of Physics",
-            "teacher": "KMA",
+            "name": "Digital Logic Design",
+            "teacher": "K. M. Asif-uz-zaman",
             "time": ["11:30 - 12:55"  ],
             "roomNo": "R-309",
-            "courseCode":"CSE-06132113"
+            "courseCode":"CSE-06132115"
         },
         {
-            "name": "Data Structure & Algorithms",
+            "name": "Algorithm Design & Analysis",
             "teacher": "Muthmainna Mou",
             "time": ["1:00 - 2:25"],
             "roomNo": "R-312",
@@ -74,15 +74,15 @@
     ],
     "wednesday": [
         {
-            "name": "Advanced Functional English",
-            "teacher": "KMA",
+            "name": "Digital Logic Design Lab",
+            "teacher": "K. M. Asif-uz-zaman",
             "time": ["8:30 - 12:55"],
             "roomNo": "R-309",
             "courseCode":"CSE-06132116"
         },
         {
-            "name": "Linear Algebra",
-            "teacher": "MNU",
+            "name": "Principles of Accounting",
+            "teacher": "Mr. Nasir Uddin",
             "time": ["1:00 - 2:25"],
             "roomNo": "R-412",
             "courseCode":"BUS-04112101",
@@ -91,14 +91,14 @@
     ],
     "thursday": [
         {
-            "name": "Advanced Functional English",
-            "teacher": "MSU",
+            "name": "Basic Statistics and Probability",
+            "teacher": "Mr. Mohammad Salah Uddin",
             "time": ["8:30 - 9:55"],
             "roomNo": "R-412",
             "courseCode":"STA-05422101"
         },
         {
-            "name": "Fundamentals of Physics",
+            "name": "Object Oriented Programming Language Lab",
             "teacher": "PSD",
             "time": ["10:00 - 12:55"],
             "roomNo": "R-309",
