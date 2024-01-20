@@ -174,6 +174,24 @@ export default function Routine() {
     })
   }
 
+
+  const handleKeyPress = (e) => {
+    if (e.key === "ArrowLeft") {
+      handlePrev();
+    } else if (e.key === "ArrowRight") {
+      handleNext();
+    } else if (e.key === "m") {
+      document.querySelector("#settingTr").click();
+    }
+  }
+
+  useEffect(() => {
+    document.addEventListener('keydown', handleKeyPress);
+    return () => {
+      document.removeEventListener('keydown', handleKeyPress);
+    }
+  }, [today]);
+
   return (
     <>
       <ToastContainer theme='dark' />
