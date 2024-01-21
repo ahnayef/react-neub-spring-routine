@@ -176,9 +176,9 @@ export default function Routine() {
 
 
   const handleKeyPress = (e) => {
-    if (e.key === "ArrowLeft") {
+    if (e.key === "ArrowLeft" || e.key === "ArrowDown") {
       handlePrev();
-    } else if (e.key === "ArrowRight") {
+    } else if (e.key === "ArrowRight" || e.key === "ArrowUp") {
       handleNext();
     } else if (e.key === "m") {
       document.querySelector("#settingTr").click();
