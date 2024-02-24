@@ -98,6 +98,10 @@ export default function Routine() {
 
     });
 
+    if (today === "Sunday") {
+      return;
+    }
+
     date.setDate(date.getDate() - 1);
     //set new day
     setToday(date.toLocaleDateString("en-US", { weekday: 'long' }));
@@ -113,6 +117,9 @@ export default function Routine() {
       label: 'Next Button Clicked'
     });
 
+    if (today === "Thursday") {
+      return;
+    }
 
     date.setDate(date.getDate() + 1);
     //set new day
@@ -227,6 +234,7 @@ export default function Routine() {
             <h1>{today}</h1>
             {today != "Thursday" ? <button onClick={handleNext}>&gt;</button> : " "}
           </div>
+          <h4 className='smallDate'>{date.toLocaleDateString("en-US", { month: 'short', day: 'numeric', year: 'numeric' })}</h4>
           {
             check ? routine.map((item) => { return (<Routinebox lab={item.lab} name={item.name} teacher={item.teacher} time={item.time} roomNo={item.roomNo} section={item.section} courseCode={item.courseCode} joinLink={item.joinLink} key={item.name} />) }) : <Weekend />
           }
