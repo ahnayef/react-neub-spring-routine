@@ -15,7 +15,7 @@
             "time": [
                 "10:00 - 11:25"
             ],
-            "roomNo": "R-412",
+            "roomNo": "R-301",
             "courseCode": "CSE-06132215"
         },
         {
@@ -60,7 +60,7 @@
         },
         {
             "name": "Project Work - I",
-            "teacher": "TBD",
+            "teacher": "TBA",
             "time": [
                 "01:00 - 03:55"
             ],
@@ -95,7 +95,7 @@
             "time": [
                 "2:30 - 5:25"
             ],
-            "roomNo": "R-309"
+            "roomNo": "R-301"
         }
     ],
     "wednesday": [
@@ -103,7 +103,7 @@
             "name": "Theory Of Computation",
             "teacher": "Dr Arif Ahmad",
             "time": [
-                "8:30 - 11:25"
+                "8:30 - 9:55"
             ],
             "roomNo": "R-412",
             "courseCode": "CSE-06132215"
@@ -143,7 +143,7 @@
             "time": [
                 "10:00 - 11:25"
             ],
-            "roomNo": "R-309",
+            "roomNo": "R-301",
             "courseCode": "CSE-06132217"
         },
         {
