@@ -1,108 +1,168 @@
 {
     "sunday": [
         {
-            "name": "Basic Statistics and Probability",
-            "teacher": "Mr. Mohammad Salah Uddin",
-            "time": ["8:30 - 9:55"],
-            "roomNo": "R-412",
-            "courseCode":"STA-05422101"
-        },
-        {
-            "name": "Digital Logic Design",
-            "teacher": "K. M. Asif-uz-zaman",
-            "time": ["10:00 - 11:25"],
-            "roomNo": "R-214",
-            "courseCode":"CSE-06132115"
-        },
-        {
-            "name": "Algorithm Design & Analysis",
+            "name": "Operating System",
             "teacher": "Muthmainna Mou",
-            "time": ["11:30 - 12:55"],
+            "time": [
+                "8:30 - 9:55"
+            ],
+            "roomNo": "R-206",
+            "courseCode": "CSE-06132213"
+        },
+        {
+            "name": "Theory Of Computation",
+            "teacher": "Dr Arif Ahmad",
+            "time": [
+                "10:00 - 11:25"
+            ],
             "roomNo": "R-412",
-            "courseCode":"CSE-06132113"
+            "courseCode": "CSE-06132215"
+        },
+        {
+            "name": "Operating System Lab",
+            "teacher": "Muthmainna Mou",
+            "time": [
+                "11:30 - 2:25"
+            ],
+            "roomNo": "R-309",
+            "courseCode": "CSE-06132214",
+            "lab": true
         }
-      
-        
     ],
     "monday": [
         {
-            "name": "Algorithm Design & Analysis Lab",
-            "teacher": "Muthmainna Mou",
-            "time": ["8:30 - 11:25"],
+            "name": "Introduction To Database System",
+            "teacher": "Razorshi Prozzwal Talukder",
+            "time": [
+                "8:30 - 09:55"
+            ],
+            "roomNo": "R-206",
+            "courseCode": "CSE-06132211"
+        },
+        {
+            "name": "Numerical Analysis",
+            "teacher": "Dr. M. Shahidur Rahman",
+            "time": [
+                "10:00 - 11:25"
+            ],
             "roomNo": "R-309",
-            "courseCode":"CSE-06132114",
-            "lab":true
+            "courseCode": "CSE-06132217"
         },
         {
-            "name": "Object Oriented Programming Language",
-            "teacher": "Mr. Pranta Sarker",
-            "time": ["11:30 - 12:55"],
-            "roomNo": "R-412",
-            "courseCode":"CSE-06132111"
+            "name": "Numerical Analysis Lab",
+            "teacher": "Dr. M. Shahidur Rahman",
+            "time": [
+                "11:30 - 12:55"
+            ],
+            "roomNo": "R-309",
+            "courseCode": "CSE-06132218",
+            "lab": true
         },
         {
-            "name": "Principles of Accounting",
-            "teacher": "Mr. Nasir Uddin",
-            "time": ["1:00 - 2:25"],
-            "roomNo": "R-312",
-            "courseCode":"BUS-04112101"
+            "name": "Project Work - I",
+            "teacher": "TBD",
+            "time": [
+                "01:00 - 03:55"
+            ],
+            "roomNo": "R-309",
+            "courseCode": "CSE-06132220",
+            "lab": true
         }
     ],
     "tuesday": [
         {
-            "name": "Object Oriented Programming Language",
-            "teacher": "Mr. Pranta Sarker",
-            "time": ["10:00 - 11:25"],
-            "roomNo": "R-412",
-            "courseCode":"CSE-06132111" 
+            "name": "Complex Variables , Laplace Transform and Fourier",
+            "teacher": "Dr. MD. Elias Uddin Biswas",
+            "time": [
+                "10:00 - 11:25"
+            ],
+            "roomNo": "R-206",
+            "courseCode": "MAT-05412205"
         },
         {
-            "name": "Digital Logic Design",
-            "teacher": "K. M. Asif-uz-zaman",
-            "time": ["11:30 - 12:55"  ],
+            "name": "Introduction To Database System Lab",
+            "teacher": "Razorshi Prozzwal Talukder",
+            "time": [
+                "11:30 - 2.25"
+            ],
             "roomNo": "R-309",
-            "courseCode":"CSE-06132115"
+            "courseCode": "CSE-06132212",
+            "lab": true
         },
         {
-            "name": "Algorithm Design & Analysis",
-            "teacher": "Muthmainna Mou",
-            "time": ["1:00 - 2:25"],
-            "roomNo": "R-312",
-            "courseCode":"CSE-06132113"
+            "name": "ACM",
+            "teacher": "Dr Arif Ahmad",
+            "time": [
+                "2:30 - 5:25"
+            ],
+            "roomNo": "R-309"
         }
     ],
     "wednesday": [
         {
-            "name": "Digital Logic Design Lab",
-            "teacher": "K. M. Asif-uz-zaman",
-            "time": ["8:30 - 11:25"],
-            "roomNo": "R-309",
-            "courseCode":"CSE-06132116",
-            "lab":true
+            "name": "Theory Of Computation",
+            "teacher": "Dr Arif Ahmad",
+            "time": [
+                "8:30 - 11:25"
+            ],
+            "roomNo": "R-412",
+            "courseCode": "CSE-06132215"
         },
         {
-            "name": "Principles of Accounting",
-            "teacher": "Mr. Nasir Uddin",
-            "time": ["1:00 - 2:25"],
-            "roomNo": "R-412",
-            "courseCode":"BUS-04112101"
+            "name": "Complex Variables , Laplace Transform and Fourier",
+            "teacher": "Dr. MD. Elias Uddin Biswas",
+            "time": [
+                "10:00 - 11:25"
+            ],
+            "roomNo": "R-206",
+            "courseCode": "MAT-05412205"
+        },
+        {
+            "name": "Introduction To Database System",
+            "teacher": "Razorshi Prozzwal Talukder",
+            "time": [
+                "11:30 - 12:55"
+            ],
+            "roomNo": "R-206",
+            "courseCode": "CSE-06132211"
+        },
+        {
+            "name": "Operating System",
+            "teacher": "Muthmainna Mou",
+            "time": [
+                "1:00 - 2:25"
+            ],
+            "roomNo": "R-312",
+            "courseCode": "CSE-06132213"
         }
     ],
     "thursday": [
         {
-            "name": "Basic Statistics and Probability",
-            "teacher": "Mr. Mohammad Salah Uddin",
-            "time": ["8:30 - 9:55"],
-            "roomNo": "R-412",
-            "courseCode":"STA-05422101"
+            "name": "Numerical Analysis",
+            "teacher": "Dr. M. Shahidur Rahman",
+            "time": [
+                "10:00 - 11:25"
+            ],
+            "roomNo": "R-309",
+            "courseCode": "CSE-06132217"
         },
         {
-            "name": "Object Oriented Programming Language Lab",
-            "teacher": "Mr. Pranta Sarker",
-            "time": ["10:00 - 12:55"],
+            "name": "Numerical Analysis Lab",
+            "teacher": "Dr. M. Shahidur Rahman",
+            "time": [
+                "11:30 - 12:55"
+            ],
             "roomNo": "R-309",
-            "courseCode":"CSE-06132112",
-            "lab":true
+            "courseCode": "CSE-06132218",
+            "lab": true
+        },
+        {
+            "name": "ACM",
+            "teacher": "Dr Arif Ahmad",
+            "time": [
+                "1:00 - 3:55"
+            ],
+            "roomNo": "R-301"
         }
     ]
 }
