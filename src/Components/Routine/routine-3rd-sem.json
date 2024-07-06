@@ -1,0 +1,108 @@
+{
+    "sunday": [
+        {
+            "name": "Basic Statistics and Probability",
+            "teacher": "Mr. Mohammad Salah Uddin",
+            "time": ["8:30 - 9:55"],
+            "roomNo": "R-412",
+            "courseCode":"STA-05422101"
+        },
+        {
+            "name": "Digital Logic Design",
+            "teacher": "K. M. Asif-uz-zaman",
+            "time": ["10:00 - 11:25"],
+            "roomNo": "R-214",
+            "courseCode":"CSE-06132115"
+        },
+        {
+            "name": "Algorithm Design & Analysis",
+            "teacher": "Muthmainna Mou",
+            "time": ["11:30 - 12:55"],
+            "roomNo": "R-412",
+            "courseCode":"CSE-06132113"
+        }
+      
+        
+    ],
+    "monday": [
+        {
+            "name": "Algorithm Design & Analysis Lab",
+            "teacher": "Muthmainna Mou",
+            "time": ["8:30 - 11:25"],
+            "roomNo": "R-309",
+            "courseCode":"CSE-06132114",
+            "lab":true
+        },
+        {
+            "name": "Object Oriented Programming Language",
+            "teacher": "Mr. Pranta Sarker",
+            "time": ["11:30 - 12:55"],
+            "roomNo": "R-412",
+            "courseCode":"CSE-06132111"
+        },
+        {
+            "name": "Principles of Accounting",
+            "teacher": "Mr. Nasir Uddin",
+            "time": ["1:00 - 2:25"],
+            "roomNo": "R-312",
+            "courseCode":"BUS-04112101"
+        }
+    ],
+    "tuesday": [
+        {
+            "name": "Object Oriented Programming Language",
+            "teacher": "Mr. Pranta Sarker",
+            "time": ["10:00 - 11:25"],
+            "roomNo": "R-412",
+            "courseCode":"CSE-06132111" 
+        },
+        {
+            "name": "Digital Logic Design",
+            "teacher": "K. M. Asif-uz-zaman",
+            "time": ["11:30 - 12:55"  ],
+            "roomNo": "R-309",
+            "courseCode":"CSE-06132115"
+        },
+        {
+            "name": "Algorithm Design & Analysis",
+            "teacher": "Muthmainna Mou",
+            "time": ["1:00 - 2:25"],
+            "roomNo": "R-312",
+            "courseCode":"CSE-06132113"
+        }
+    ],
+    "wednesday": [
+        {
+            "name": "Digital Logic Design Lab",
+            "teacher": "K. M. Asif-uz-zaman",
+            "time": ["8:30 - 11:25"],
+            "roomNo": "R-309",
+            "courseCode":"CSE-06132116",
+            "lab":true
+        },
+        {
+            "name": "Principles of Accounting",
+            "teacher": "Mr. Nasir Uddin",
+            "time": ["1:00 - 2:25"],
+            "roomNo": "R-412",
+            "courseCode":"BUS-04112101"
+        }
+    ],
+    "thursday": [
+        {
+            "name": "Basic Statistics and Probability",
+            "teacher": "Mr. Mohammad Salah Uddin",
+            "time": ["8:30 - 9:55"],
+            "roomNo": "R-412",
+            "courseCode":"STA-05422101"
+        },
+        {
+            "name": "Object Oriented Programming Language Lab",
+            "teacher": "Mr. Pranta Sarker",
+            "time": ["10:00 - 12:55"],
+            "roomNo": "R-309",
+            "courseCode":"CSE-06132112",
+            "lab":true
+        }
+    ]
+}
