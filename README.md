@@ -3,7 +3,8 @@
 <p align="center"><img src="https://socialify.git.ci/ahnayef/react-neub-spring-routine/image?description=1&amp;font=Inter&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pulls=1&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
 
 <h2>Deploy Status: </h2>
-<img src="https://api.netlify.com/api/v1/badges/af7fee8a-23ef-4e1c-ad81-6754e0bc7060/deploy-status">
+<a href="https://app.netlify.com/sites/spring23/deploys"><img src="https://api.netlify.com/api/v1/badges/af7fee8a-23ef-4e1c-ad81-6754e0bc7060/deploy-status"></a>
+
 
 <h2>🚀 Demo</h2>
 
