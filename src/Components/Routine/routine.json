@@ -31,15 +31,6 @@
     ],
     "monday": [
         {
-            "name": "Introduction To Database System",
-            "teacher": "Razorshi Prozzwal Talukder",
-            "time": [
-                "8:30 - 09:55"
-            ],
-            "roomNo": "R-206",
-            "courseCode": "CSE-06132211"
-        },
-        {
             "name": "Numerical Analysis",
             "teacher": "Dr. M. Shahidur Rahman",
             "time": [
@@ -60,9 +51,9 @@
         },
         {
             "name": "Project Work - I",
-            "teacher": "TBA",
+            "teacher": "Anwar Hussen Wadud",
             "time": [
-                "01:00 - 03:55"
+                "2:30 - 05:25"
             ],
             "roomNo": "R-309",
             "courseCode": "CSE-06132220",
@@ -70,6 +61,15 @@
         }
     ],
     "tuesday": [
+        {
+            "name": "Introduction To Database System",
+            "teacher": "Razorshi Prozzwal Talukder",
+            "time": [
+                "8:30 - 09:55"
+            ],
+            "roomNo": "R-206",
+            "courseCode": "CSE-06132211"
+        },
         {
             "name": "Complex Variables , Laplace Transform and Fourier",
             "teacher": "Mr. Rathindra Chandra Gope",
