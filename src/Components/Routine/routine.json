@@ -50,6 +50,15 @@
             "lab": true
         },
         {
+            "name": "Operating System",
+            "teacher": "Muthmainna Mou",
+            "time": [
+                "1:00 - 2:25"
+            ],
+            "roomNo": "R-312",
+            "courseCode": "CSE-06132213"
+        },
+        {
             "name": "Project Work - I",
             "teacher": "Anwar Hussen Wadud",
             "time": [
@@ -125,15 +134,6 @@
             ],
             "roomNo": "R-206",
             "courseCode": "CSE-06132211"
-        },
-        {
-            "name": "Operating System",
-            "teacher": "Muthmainna Mou",
-            "time": [
-                "1:00 - 2:25"
-            ],
-            "roomNo": "R-312",
-            "courseCode": "CSE-06132213"
         }
     ],
     "thursday": [
