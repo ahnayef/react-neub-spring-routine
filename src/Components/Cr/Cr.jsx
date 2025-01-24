@@ -69,10 +69,10 @@ export default function Cr() {
             <h3>Hrithik Dev Nath</h3>
             <h5>জনগণের সি.আর.৭</h5>
             <div className="socialArea">
-              <a href="https://wa.me/+8801729393099" target='_' className='btn' ><i><RiWhatsappFill /></i> Whattsapp</a>
+              <a href="https://wa.me/+8801905078029" target='_' className='btn' ><i><RiWhatsappFill /></i> Whattsapp</a>
               <a href="https://m.me/hrithikdev0917" target='_' className='btn' ><i><RiMessengerFill /></i> Messenger</a>
               <a href="https://www.facebook.com/hrithikdev0917" target='_' className='btn' > <i><FaFacebook /></i> Facebook</a>
-              <a href="tel:+8801729393099" target='_' className='btn' > <i><IoCallSharp /></i> Call</a>
+              <a href="tel:+8801905078029" target='_' className='btn' > <i><IoCallSharp /></i> Call</a>
             </div>
           </div>
         }
