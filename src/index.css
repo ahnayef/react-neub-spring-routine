@@ -43,6 +43,7 @@ body {
     font-family: 'Noto Sans', sans-serif;
     text-decoration: none;
     font-weight: 600;
+    width: 90%;
 }
 
 .btn:hover {

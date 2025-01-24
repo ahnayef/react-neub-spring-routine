@@ -7,7 +7,7 @@ import Routinebox from './RoutineBox/Routinebox';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { AiFillSetting } from "react-icons/ai";
-import { FaDiscord, FaFacebookMessenger, FaGithub, FaLink, FaShareAlt, FaTelegramPlane, FaTimes } from "react-icons/fa"
+import { FaCalculator, FaDiscord, FaFacebookMessenger, FaGithub, FaLink, FaShareAlt, FaTelegramPlane, FaTimes } from "react-icons/fa"
 import "animate.css"
 import Weekend from '../Weekend/Weekend'
 import { Link } from 'react-router-dom';
@@ -213,10 +213,11 @@ export default function Routine() {
 
           {/* <a href={pdfLink} download className='btn dPdf'><FaFilePdf/> Download PDF</a> */}
           {/* <a href="https://discord.gg/jCVgCr37nJ" target="_blank" className='btn btnDis'><FaDiscord/> Join Our Server</a> */}
-          <Link to="/cr" className='btn' onClick={handleCrClick}><BiMessageRounded /> Contact CR</Link>
-          <div className="btn" onClick={handleCopy}><FaLink /> Copy Page Url</div>
           <i className='btn' onClick={handleShare}><FaShareAlt /> Share</i>
+          <div className="btn" onClick={handleCopy}><FaLink /> Copy Page Url</div>
+          <Link to="/cr" className='btn' onClick={handleCrClick}><BiMessageRounded /> Contact CR</Link>
           <a href="https://github.com/ahnayef/react-neub-spring-routine/" target='_' className='btn'><FaGithub /> Source Code</a>
+          <a href="https://calcg.vercel.app/" target='_' className='btn'><FaCalculator /> CGPA Calculator</a>
 
           <div className="socialLinks">
             <a href='https://ahnayef.t.me' className='socialIcon' target="_blank"><FaTelegramPlane /></a>
