@@ -47,13 +47,15 @@
 
   .routineBox .courseCode {
       position: absolute;
-      left: -2.4em;
-      transform: rotate(90deg);
+      /* left: -2.4em;
+      transform: rotate(90deg); */
+      bottom: 0.3em;
+      right: 0.3em;
       font-size: 0.8em;
-      opacity: 0.3;
+      opacity: 0.5;
   }
 
-  .routineBox .lab {
+  /* .routineBox .lab {
       position: absolute;
       display: flex;
       justify-content: center;
@@ -70,12 +72,37 @@
       font-size: small;
       font-weight: bold;
       transition: 0.5s;
+  } */
+
+
+  .routineBox .lab {
+    font-size: 0.8em;
+      font-weight: bold;
+      color: var(--background-light);
   }
 
-  .routineBox:hover .lab {
+  .routineBox .lab {
+      --f: .3em;
+      /* control the folded part */
+
+      position: absolute;
+      top: 0;
+      right: 0;
+      line-height: 1.8;
+      padding-inline: 1lh;
+      padding-bottom: var(--f);
+      border-image: conic-gradient(#0008 0 0) 51%/var(--f);
+      clip-path: polygon(100% calc(100% - var(--f)), 100% 100%, calc(100% - var(--f)) calc(100% - var(--f)), var(--f) calc(100% - var(--f)), 0 100%, 0 calc(100% - var(--f)), 999px calc(100% - var(--f) - 999px), calc(100% - 999px) calc(100% - var(--f) - 999px));
+      transform: translate(calc((1 - cos(45deg))*100%), -100%) rotate(45deg);
+      transform-origin: 0% 100%;
+      background-color: var(--link);
+      /* the main color  */
+  }
+
+  /* .routineBox:hover .lab {
       transform: rotate(360deg);
       box-shadow: 0 0 0.7em var(--primary);
-  }
+  } */
 
   .nextClassAfterArea {
       padding: 0.2em;
