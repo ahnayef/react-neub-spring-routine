@@ -56,13 +56,13 @@ export default function Weekend() {
       <h4>Weekend is here!</h4>
       <h4>Seize the Day: No Class, Pure Play! 👊</h4>
       <Link to="/cr" className='btn' onClick={handleCrClickWeekEnd}>Contact CR</Link>
-      <div className="socialIcons">
+      {/* <div className="socialIcons">
         <ul>
           <li><a href="https://www.whatsapp.com/" target='_'><IoLogoWhatsapp /></a></li>
           <li><a href="https://www.messenger.com/" target='_'><FaFacebookMessenger /></a></li>
           <li><a href="https://discord.com/" target='_'><FaDiscord /></a></li>
         </ul>
-      </div>
+      </div> */}
     </div>
 
   )
