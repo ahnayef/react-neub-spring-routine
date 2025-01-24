@@ -1,0 +1,168 @@
+{
+    "sunday": [
+        {
+            "name": "Operating System",
+            "teacher": "Muthmainna Mou",
+            "time": [
+                "8:30 - 9:55"
+            ],
+            "roomNo": "R-206",
+            "courseCode": "CSE-06132213"
+        },
+        {
+            "name": "Theory Of Computation",
+            "teacher": "Dr Arif Ahmad",
+            "time": [
+                "10:00 - 11:25"
+            ],
+            "roomNo": "R-301",
+            "courseCode": "CSE-06132215"
+        },
+        {
+            "name": "Operating System Lab",
+            "teacher": "Muthmainna Mou",
+            "time": [
+                "11:30 - 2:25"
+            ],
+            "roomNo": "R-309",
+            "courseCode": "CSE-06132214",
+            "lab": true
+        }
+    ],
+    "monday": [
+        {
+            "name": "Numerical Analysis",
+            "teacher": "Dr. M. Shahidur Rahman",
+            "time": [
+                "10:00 - 11:25"
+            ],
+            "roomNo": "R-309",
+            "courseCode": "CSE-06132217"
+        },
+        {
+            "name": "Numerical Analysis Lab",
+            "teacher": "Dr. M. Shahidur Rahman",
+            "time": [
+                "11:30 - 12:55"
+            ],
+            "roomNo": "R-309",
+            "courseCode": "CSE-06132218",
+            "lab": true
+        },
+        {
+            "name": "Operating System",
+            "teacher": "Muthmainna Mou",
+            "time": [
+                "1:00 - 2:25"
+            ],
+            "roomNo": "R-309",
+            "courseCode": "CSE-06132213"
+        },
+        {
+            "name": "Project Work - I",
+            "teacher": "Anwar Hussen Wadud",
+            "time": [
+                "2:30 - 05:25"
+            ],
+            "roomNo": "R-309",
+            "courseCode": "CSE-06132220",
+            "lab": true
+        }
+    ],
+    "tuesday": [
+        {
+            "name": "Introduction To Database System",
+            "teacher": "Razorshi Prozzwal Talukder",
+            "time": [
+                "8:30 - 09:55"
+            ],
+            "roomNo": "R-206",
+            "courseCode": "CSE-06132211"
+        },
+        {
+            "name": "Complex Variables , Laplace Transform and Fourier",
+            "teacher": "Mr. Rathindra Chandra Gope",
+            "time": [
+                "10:00 - 11:25"
+            ],
+            "roomNo": "R-206",
+            "courseCode": "MAT-05412205"
+        },
+        {
+            "name": "Introduction To Database System Lab",
+            "teacher": "Razorshi Prozzwal Talukder",
+            "time": [
+                "11:30 - 2.25"
+            ],
+            "roomNo": "R-309",
+            "courseCode": "CSE-06132212",
+            "lab": true
+        },
+        {
+            "name": "ACM",
+            "teacher": "Dr Arif Ahmad",
+            "time": [
+                "2:30 - 5:25"
+            ],
+            "roomNo": "R-301"
+        }
+    ],
+    "wednesday": [
+        {
+            "name": "Theory Of Computation",
+            "teacher": "Dr Arif Ahmad",
+            "time": [
+                "8:30 - 9:55"
+            ],
+            "roomNo": "R-412",
+            "courseCode": "CSE-06132215"
+        },
+        {
+            "name": "Complex Variables , Laplace Transform and Fourier",
+            "teacher": "Mr. Rathindra Chandra Gope",
+            "time": [
+                "10:00 - 11:25"
+            ],
+            "roomNo": "R-206",
+            "courseCode": "MAT-05412205"
+        },
+        {
+            "name": "Introduction To Database System",
+            "teacher": "Razorshi Prozzwal Talukder",
+            "time": [
+                "1:00 - 2:25"
+            ],
+            "roomNo": "R-206",
+            "courseCode": "CSE-06132211"
+        }
+    ],
+    "thursday": [
+        {
+            "name": "Numerical Analysis",
+            "teacher": "Dr. M. Shahidur Rahman",
+            "time": [
+                "10:00 - 11:25"
+            ],
+            "roomNo": "R-301",
+            "courseCode": "CSE-06132217"
+        },
+        {
+            "name": "Numerical Analysis Lab",
+            "teacher": "Dr. M. Shahidur Rahman",
+            "time": [
+                "11:30 - 12:55"
+            ],
+            "roomNo": "R-301",
+            "courseCode": "CSE-06132218",
+            "lab": true
+        },
+        {
+            "name": "ACM",
+            "teacher": "Dr Arif Ahmad",
+            "time": [
+                "1:00 - 3:55"
+            ],
+            "roomNo": "R-301"
+        }
+    ]
+}
