@@ -65,7 +65,8 @@
       "time": ["11:30 - 2.25"],
       "roomNo": "R-309",
       "courseCode": "CSE-06133112",
-      "lab": true
+      "lab": true,
+      "nextClassAfter": "5 min"
     },
     {
       "name": "ACM",
@@ -124,7 +125,8 @@
       "teacher": "Razorshi Prozzwal Talukder",
       "time": ["10:00 - 11:25"],
       "roomNo": "R-117",
-      "courseCode": "CSE-06133115"
+      "courseCode": "CSE-06133115",
+      "nextClassAfter": "3 hr"
     },
     {
       "name": "ACM",
