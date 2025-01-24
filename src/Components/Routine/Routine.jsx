@@ -236,7 +236,7 @@ export default function Routine() {
           </div>
           <h4 className='smallDate'>{date.toLocaleDateString("en-US", { month: 'short', day: 'numeric', year: 'numeric' })}</h4>
           {
-            check ? routine.map((item) => { return (<Routinebox lab={item.lab} name={item.name} teacher={item.teacher} time={item.time} roomNo={item.roomNo} section={item.section} courseCode={item.courseCode} joinLink={item.joinLink} key={item.name} />) }) : <Weekend />
+            check ? routine.map((item) => { return (<Routinebox lab={item.lab} name={item.name} teacher={item.teacher} time={item.time} roomNo={item.roomNo} section={item.section} courseCode={item.courseCode} joinLink={item.joinLink} nextClassAfter={item.nextClassAfter} key={item.name} />) }) : <Weekend />
           }
         </div>
         {/* <div className="copyPageUrl" onClick={handleCopy}><FaLink/> Copy Page Url</div> */}

@@ -5,14 +5,16 @@
       "teacher": "Mr. Sabuj Chandra Paul",
       "time": ["8:30 - 9:55"],
       "roomNo": "R-206",
-      "courseCode": "CSE-06133113"
+      "courseCode": "CSE-06133113",
+      "nextClassAfter": "5 min"
     },
     {
       "name": "Computer Networks",
       "teacher": "TBA",
       "time": ["10:00 - 11:25"],
       "roomNo": "R-311",
-      "courseCode": "CSE-06133111"
+      "courseCode": "CSE-06133111",
+      "nextClassAfter": "1:30 hr"
     },
     {
       "name": "Microprocessor and Interfacing",
@@ -29,7 +31,8 @@
       "time": ["8:30 - 11:25"],
       "roomNo": "R-309",
       "courseCode": "CSE-06133116",
-      "lab": true
+      "lab": true,
+      "nextClassAfter": "1:30 hr"
     },
     {
       "name": "Microprocessor and Interfacing",
@@ -45,14 +48,16 @@
       "teacher": "Dr. Hira Lal Gope",
       "time": ["8:30 - 09:55"],
       "roomNo": "R-412",
-      "courseCode": "CSE-06133119"
+      "courseCode": "CSE-06133119",
+      "nextClassAfter": "5 min"
     },
     {
       "name": "Software Engineering and Design Patterns",
       "teacher": "Mr. Sabuj Chandra Paul",
       "time": ["10:00 - 11:25"],
       "roomNo": "R-117",
-      "courseCode": "CSE-06133113"
+      "courseCode": "CSE-06133113",
+      "nextClassAfter": "5 min"
     },
     {
       "name": "Computer Networks Lab",
@@ -77,21 +82,24 @@
       "time": ["8:30 - 11:25"],
       "roomNo": "R-301",
       "courseCode": "CSE-06133114",
-      "lab": true
+      "lab": true,
+      "nextClassAfter": "5 min"
     },
     {
       "name": "Computer Networks",
       "teacher": "TBA",
       "time": ["11:30 - 12:55"],
       "roomNo": "R-117",
-      "courseCode": "CSE-06133111"
+      "courseCode": "CSE-06133111",
+      "nextClassAfter": "5 min"
     },
     {
       "name": "Artificial Intelligence",
       "teacher": "Razorshi Prozzwal Talukder",
       "time": ["1:00 - 2:25"],
       "roomNo": "R-117",
-      "courseCode": "CSE-06133115"
+      "courseCode": "CSE-06133115",
+      "nextClassAfter": "5 min"
     },
     {
       "name": "Microprocessor and Interfacing Lab",
@@ -108,7 +116,8 @@
       "teacher": "Dr. Hira Lal Gope",
       "time": ["8:30 - 9:55"],
       "roomNo": "R-312",
-      "courseCode": "CSE-06133119"
+      "courseCode": "CSE-06133119",
+      "nextClassAfter": "5 min"
     },
     {
       "name": "Artificial Intelligence",
