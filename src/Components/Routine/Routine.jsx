@@ -13,17 +13,12 @@ import Weekend from '../Weekend/Weekend'
 import { Link } from 'react-router-dom';
 import { BiMessageRounded } from 'react-icons/bi'
 import ReactGA from 'react-ga4';
-// import DeviceDetector from "device-detector-js";
+
 
 export default function Routine() {
 
-
-
   ReactGA.initialize(import.meta.env.VITE_GA_MID);
   ReactGA.send("pageview");
-
-
-
 
   const [routine, setRoutine] = useState(routineData.monday);
 
@@ -34,32 +29,9 @@ export default function Routine() {
   const [check, setCheke] = useState(false);
 
 
-
-
   useEffect(() => {
 
-
-    // const deviceDetector = new DeviceDetector();
-    // const device = deviceDetector.parse(navigator.userAgent);
-
-    // const deviceInfo = {
-    //   client: `${device.client.name} ${device.client.version} ${device.client.type}`,
-    //   os: `${device.os.name} ${device.os.version} ${device.os.platform}`,
-    //   device: device.device.type,
-    //   isbot: device.bot || "Not a bot",
-    // }
-    // ReactGA.send({
-    //   hitType: 'pageview',
-    //   page: window.location.pathname + window.location.search,
-    //   client: deviceInfo.client,
-    //   os: deviceInfo.os,
-    //   device: deviceInfo.device,
-    //   isbot: deviceInfo.isbot,
-    // });
-
-
     if (today === "Friday" || today === "Saturday") {
-      // alert("No class today :: Enjoy your day!");
       setCheke(false);
       console.log("No class today :: Enjoy your day!");
       document.title = `Routine | ${today}`
@@ -79,11 +51,8 @@ export default function Routine() {
         label: `Page Visit ${today}`,
       });
 
-
     }
     setRoutine(routineData[today.toLowerCase()])
-    // console.log(today)
-
 
   }, [today]);
 
@@ -210,9 +179,6 @@ export default function Routine() {
         <div className="settingBox">
           <label htmlFor="settingTr" id='settingBoxClose' onClick={handleCloseIconClick}  ><FaTimes /></label>
           <h2>MENU</h2>
-
-          {/* <a href={pdfLink} download className='btn dPdf'><FaFilePdf/> Download PDF</a> */}
-          {/* <a href="https://discord.gg/jCVgCr37nJ" target="_blank" className='btn btnDis'><FaDiscord/> Join Our Server</a> */}
           <i className='btn' onClick={handleShare}><FaShareAlt /> Share</i>
           <div className="btn" onClick={handleCopy}><FaLink /> Copy Page Url</div>
           <Link to="/cr" className='btn' onClick={handleCrClick}><BiMessageRounded /> Contact CR</Link>
