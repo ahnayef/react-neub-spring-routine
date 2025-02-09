@@ -3,32 +3,50 @@
     {
       "name": "Software Engineering and Design Patterns",
       "teacher": "Mr. Sabuj Chandra Paul",
-      "time": ["8:30 - 9:55"],
+      "time": [
+        "8:30 - 9:55"
+      ],
       "roomNo": "R-206",
       "courseCode": "CSE-06133113",
       "nextClassAfter": "5 min"
     },
     {
       "name": "Computer Networks",
-      "teacher": "TBA",
-      "time": ["10:00 - 11:25"],
+      "teacher": "Raju Dey",
+      "time": [
+        "10:00 - 11:25"
+      ],
       "roomNo": "R-311",
       "courseCode": "CSE-06133111",
-      "nextClassAfter": "1:30 hr"
+      "nextClassAfter": "3 hours"
     },
     {
       "name": "Microprocessor and Interfacing",
       "teacher": "Mr.  Shahadat Hussain Parvez",
-      "time": ["2:30 - 3:55"],
+      "time": [
+        "2:30 - 3:55"
+      ],
       "roomNo": "R-501",
       "courseCode": "CSE-06133117"
     }
   ],
-  "monday": [ 
+  "monday": [
+    {
+      "name": "Data Communication",
+      "teacher": "Dr. Hira Lal Gope",
+      "time": [
+        "8:30 - 09:55"
+      ],
+      "roomNo": "R-117",
+      "courseCode": "CSE-06133119",
+      "nextClassAfter": "1:30 hours"
+    },
     {
       "name": "Artificial Intelligence Lab",
       "teacher": "Razorshi Prozzwal Talukder",
-      "time": ["11:30 - 2:25"],
+      "time": [
+        "11:30 - 2:25"
+      ],
       "roomNo": "R-309",
       "courseCode": "CSE-06133116",
       "lab": true,
@@ -37,7 +55,9 @@
     {
       "name": "Microprocessor and Interfacing",
       "teacher": "Mr.  Shahadat Hussain Parvez",
-      "time": ["2:30 - 3:55"],
+      "time": [
+        "2:30 - 3:55"
+      ],
       "roomNo": "R-501",
       "courseCode": "CSE-06133117"
     }
@@ -46,7 +66,9 @@
     {
       "name": "Data Communication",
       "teacher": "Dr. Hira Lal Gope",
-      "time": ["8:30 - 09:55"],
+      "time": [
+        "8:30 - 09:55"
+      ],
       "roomNo": "R-117",
       "courseCode": "CSE-06133119",
       "nextClassAfter": "5 min"
@@ -54,15 +76,19 @@
     {
       "name": "Software Engineering and Design Patterns",
       "teacher": "Mr. Sabuj Chandra Paul",
-      "time": ["10:00 - 11:25"],
+      "time": [
+        "10:00 - 11:25"
+      ],
       "roomNo": "R-117",
       "courseCode": "CSE-06133113",
       "nextClassAfter": "5 min"
     },
     {
       "name": "Computer Networks Lab",
-      "teacher": "TBA",
-      "time": ["11:30 - 2.25"],
+      "teacher": "Raju Dey",
+      "time": [
+        "11:30 - 2.25"
+      ],
       "roomNo": "R-309",
       "courseCode": "CSE-06133112",
       "lab": true,
@@ -71,7 +97,9 @@
     {
       "name": "ACM",
       "teacher": "Dr Arif Ahmad",
-      "time": ["2:30 - 5:25"],
+      "time": [
+        "2:30 - 5:25"
+      ],
       "roomNo": "R-301",
       "lab": true
     }
@@ -80,7 +108,9 @@
     {
       "name": "Software Engineering and Design Patterns Lab",
       "teacher": "Mr. Sabuj Chandra Paul",
-      "time": ["8:30 - 11:25"],
+      "time": [
+        "8:30 - 11:25"
+      ],
       "roomNo": "R-301",
       "courseCode": "CSE-06133114",
       "lab": true,
@@ -88,8 +118,10 @@
     },
     {
       "name": "Computer Networks",
-      "teacher": "TBA",
-      "time": ["11:30 - 12:55"],
+      "teacher": "Raju Dey",
+      "time": [
+        "11:30 - 12:55"
+      ],
       "roomNo": "R-117",
       "courseCode": "CSE-06133111",
       "nextClassAfter": "5 min"
@@ -97,7 +129,9 @@
     {
       "name": "Artificial Intelligence",
       "teacher": "Razorshi Prozzwal Talukder",
-      "time": ["1:00 - 2:25"],
+      "time": [
+        "1:00 - 2:25"
+      ],
       "roomNo": "R-117",
       "courseCode": "CSE-06133115",
       "nextClassAfter": "5 min"
@@ -105,7 +139,9 @@
     {
       "name": "Microprocessor and Interfacing Lab",
       "teacher": "Mr.  Shahadat Hussain Parvez",
-      "time": ["2:30 - 5:25"],
+      "time": [
+        "2:30 - 5:25"
+      ],
       "roomNo": "R-301",
       "courseCode": "CSE-06133118",
       "lab": true
@@ -115,23 +151,29 @@
     {
       "name": "Data Communication",
       "teacher": "Dr. Hira Lal Gope",
-      "time": ["8:30 - 9:55"],
-      "roomNo": "R-312",
+      "time": [
+        "8:30 - 11:25"
+      ],
+      "roomNo": "R-117",
       "courseCode": "CSE-06133119",
       "nextClassAfter": "5 min"
     },
     {
       "name": "Artificial Intelligence",
       "teacher": "Razorshi Prozzwal Talukder",
-      "time": ["10:00 - 11:25"],
+      "time": [
+        "11:30 - 12:55"
+      ],
       "roomNo": "R-117",
       "courseCode": "CSE-06133115",
-      "nextClassAfter": "3 hr"
+      "nextClassAfter": "1:30 hours"
     },
     {
       "name": "ACM",
       "teacher": "Dr Arif Ahmad",
-      "time": ["2:30 - 5:25"],
+      "time": [
+        "2:30 - 5:25"
+      ],
       "roomNo": "R-301",
       "lab": true
     }
