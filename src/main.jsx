@@ -4,7 +4,7 @@ import {
   createHashRouter,
   RouterProvider,
 } from "react-router-dom";
-import Error404 from './Components/Error404';
+// import Error404 from './Components/Error404';
 import Routine from "./Components/Routine/Routine"
 import Cr from "./Components/Cr/Cr"
 import './index.css';
