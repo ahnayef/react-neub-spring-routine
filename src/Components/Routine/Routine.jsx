@@ -114,6 +114,11 @@ export default function Routine() {
       label: 'Update Icon Clicked',
     });
 
+    if (!navigator.onLine) {
+      toast.error("You are offline. Please connect to the internet to update.");
+      return;
+    }
+
     if (window.confirm("Are you sure you want to update? This will clear all caches and reload the page.")) {
       if (navigator.serviceWorker) {
         navigator.serviceWorker.getRegistrations().then(registrations => {
