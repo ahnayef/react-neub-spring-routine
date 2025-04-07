@@ -76,7 +76,7 @@
 
 
   .routineBox .lab {
-    font-size: 0.8em;
+      font-size: 0.8em;
       font-weight: bold;
       color: var(--background-light);
   }
@@ -172,11 +172,14 @@
       animation-delay: 2.5s;
   }
 
-  .star:nth-child(7) {
+  /* .star:nth-child(7) {
       top: 90%;
       left: 80%;
-      animation-delay: 3s;
-  }
+      animation-delay: _willCalculateLater;
+      background: var(--willChooseLater);
+      opacity: 1;
+      box-shadow: 0 0 0.5em var(--keptForFuture);
+  } */
 
   @keyframes blink {
 

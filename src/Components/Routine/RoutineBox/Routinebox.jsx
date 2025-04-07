@@ -65,6 +65,7 @@ export default function Routinebox(routine) {
                     <span className="star"></span>
                     <span className="star"></span>
                     <span className="star"></span>
+                    {/* <span className="star"></span> */} {/* keptForFutureImplementation  */}
                 </div>
 
             </div>
