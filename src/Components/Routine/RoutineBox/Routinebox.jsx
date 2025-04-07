@@ -65,7 +65,6 @@ export default function Routinebox(routine) {
                     <span className="star"></span>
                     <span className="star"></span>
                     <span className="star"></span>
-                    <span className="star"></span>
                 </div>
 
             </div>
