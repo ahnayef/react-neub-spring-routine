@@ -148,7 +148,7 @@
   .star:nth-child(3) {
       top: 80%;
       left: 75%;
-      animation-delay: 0.2s;
+      animation-delay: 0.27s;
       background: var(--primary);
       opacity: 1;
       box-shadow: 0 0 0.5em var(--primary);
