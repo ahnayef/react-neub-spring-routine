@@ -175,10 +175,7 @@
   .star:nth-child(7) {
       top: 90%;
       left: 80%;
-      animation-delay: 0.27s;
-      background: var(--yellow);
-      opacity: 1;
-      box-shadow: 0 0 0.5em var(--yellow);
+      animation-delay: 3s;
   }
 
   @keyframes blink {
