@@ -80,12 +80,7 @@
     animation: bounceIn 1s;
     margin-top: 1.5em;
     color: var(--text);
-    /* text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 0.3em; */
+    width: fit-content;
 }
 
 .crMain .btn:hover{
